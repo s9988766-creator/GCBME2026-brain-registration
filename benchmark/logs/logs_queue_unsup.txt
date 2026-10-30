@@ -1,0 +1,26 @@
+[Mon 08/31/2026 21:40:34.84] QUEUE START 
+[Tue 09/01/2026  1:39:48.81] train flowsvf_unsup_lam1.0 exit=0 
+[Tue 09/01/2026  1:44:24.96] val sweep flowsvf_unsup_lam1.0 exit=0 
+[Tue 09/01/2026  1:54:43.07] test sweep flowsvf_unsup_lam1.0 exit=0 
+[Tue 09/01/2026  5:53:50.12] train flowsvf_unsup_lam4.0 exit=0 
+[Tue 09/01/2026  5:58:27.73] val sweep flowsvf_unsup_lam4.0 exit=0 
+[Tue 09/01/2026  6:08:38.21] test sweep flowsvf_unsup_lam4.0 exit=0 
+[Tue 09/01/2026 10:07:04.81] train flowsvf_unsup_lam0.25 exit=0 
+[Tue 09/01/2026 10:11:42.97] val sweep flowsvf_unsup_lam0.25 exit=0 
+[Tue 09/01/2026 10:20:50.82] test sweep flowsvf_unsup_lam0.25 exit=0 
+[Tue 09/01/2026 14:19:38.55] train flowsvf_unsup_lam16.0 exit=0 
+[Tue 09/01/2026 14:24:15.95] val sweep flowsvf_unsup_lam16.0 exit=0 
+[Tue 09/01/2026 14:34:28.92] test sweep flowsvf_unsup_lam16.0 exit=0 
+[Tue 09/01/2026 17:46:25.60] train flowdisp_unsup_lam1.0 exit=0 
+[Tue 09/01/2026 17:51:04.33] val sweep flowdisp_unsup_lam1.0 exit=0 
+[Tue 09/01/2026 18:01:20.78] test sweep flowdisp_unsup_lam1.0 exit=0 
+[Tue 09/01/2026 21:13:17.84] train flowdisp_unsup_lam4.0 exit=0 
+[Tue 09/01/2026 21:17:53.36] val sweep flowdisp_unsup_lam4.0 exit=0 
+[Tue 09/01/2026 21:27:53.84] test sweep flowdisp_unsup_lam4.0 exit=0 
+[Wed 09/02/2026  0:39:53.13] train flowdisp_unsup_lam0.25 exit=0 
+[Wed 09/02/2026  0:44:27.10] val sweep flowdisp_unsup_lam0.25 exit=0 
+[Wed 09/02/2026  0:53:29.79] test sweep flowdisp_unsup_lam0.25 exit=0 
+[Wed 09/02/2026  4:05:32.33] train flowdisp_unsup_lam16.0 exit=0 
+[Wed 09/02/2026  4:10:08.34] val sweep flowdisp_unsup_lam16.0 exit=0 
+[Wed 09/02/2026  4:20:20.81] test sweep flowdisp_unsup_lam16.0 exit=0 
+[Wed 09/02/2026  4:20:20.82] QUEUE DONE 

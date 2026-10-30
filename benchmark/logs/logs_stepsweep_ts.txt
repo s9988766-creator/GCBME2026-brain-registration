@@ -1,0 +1,14 @@
+run=flowsvf_ts  selected at epoch 100 (Val Dice 0.792422 @ 4 steps)
+split=Val n=58  mode=euler
+
+ steps     Dice (grouped-17)        Jneg %   logJ SD       ms
+     1         0.7796 ± 0.0175      0.000299     0.488     48.1
+     2         0.7891 ± 0.0173      0.000110     0.466     59.4
+     4         0.7924 ± 0.0180      0.000065     0.453     72.4
+     8         0.7926 ± 0.0182      0.000052     0.447     85.6
+    16         0.7924 ± 0.0184      0.000048     0.444    125.6
+
+step 1 -> best (8 steps): 0.7796 -> 0.7926  (+0.0129)
+max folding across all step counts: 0.000299%
+GATE: step 2 must clearly beat step 1 and Dice must not degrade with steps.
+wrote D:\YM\LFM\benchmark_atlas_to_subject\results\flowsvf_ts_stepsweep_euler_val.csv

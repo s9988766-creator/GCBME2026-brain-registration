@@ -1,0 +1,6 @@
+[Fri 08/21/2026 12:59:07.73] QUEUE START 
+[Fri 08/21/2026 12:59:07.73] flowsvf_unet done 
+[Fri 08/21/2026 12:59:07.73] flowdisp_unet done 
+[Fri 08/21/2026 12:59:07.73] flowsvf_unet_std done 
+[Fri 08/21/2026 12:59:07.73] flowdisp_unet_std done 
+[Fri 08/21/2026 13:08:04.18] QUEUE DONE 

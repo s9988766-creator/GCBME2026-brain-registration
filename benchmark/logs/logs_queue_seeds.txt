@@ -1,0 +1,15 @@
+[Fri 08/21/2026 15:52:38.90] waiting for the review queue 
+[Fri 08/21/2026 15:53:39.44] review queue done, starting seeds 
+[Fri 08/21/2026 15:53:39.44] train flowsvf_unet_std_s1 exit=0 
+[Fri 08/21/2026 15:53:39.44] val sweep flowsvf_unet_std_s1 exit=0 
+[Fri 08/21/2026 15:53:39.44] test sweep flowsvf_unet_std_s1 exit=0 
+[Fri 08/21/2026 15:53:39.44] train flowsvf_unet_std_s2 exit=0 
+[Fri 08/21/2026 15:53:39.44] val sweep flowsvf_unet_std_s2 exit=0 
+[Fri 08/21/2026 15:53:39.44] test sweep flowsvf_unet_std_s2 exit=0 
+[Fri 08/21/2026 15:53:39.44] train flowdisp_unet_std_s1 exit=0 
+[Fri 08/21/2026 15:53:39.44] val sweep flowdisp_unet_std_s1 exit=0 
+[Fri 08/21/2026 15:53:39.44] test sweep flowdisp_unet_std_s1 exit=0 
+[Fri 08/21/2026 15:53:39.44] train flowdisp_unet_std_s2 exit=0 
+[Fri 08/21/2026 15:53:39.44] val sweep flowdisp_unet_std_s2 exit=0 
+[Fri 08/21/2026 15:53:39.44] test sweep flowdisp_unet_std_s2 exit=0 
+[Sat 08/22/2026 11:48:59.00] QUEUE DONE 

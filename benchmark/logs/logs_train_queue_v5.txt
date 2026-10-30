@@ -1,0 +1,6 @@
+[Tue 08/11/2026 11:15:49.75] QUEUE START 
+[Tue 08/11/2026 11:15:49.75] starting v5 beta=1.0 
+[Tue 08/11/2026 13:58:48.41] v5 beta=1.0 finished exit=0 
+[Tue 08/11/2026 13:58:48.42] starting v5 beta=0.0 
+[Tue 08/11/2026 15:34:09.66] v5 beta=0.0 finished exit=0 
+[Tue 08/11/2026 15:34:09.66] QUEUE DONE 

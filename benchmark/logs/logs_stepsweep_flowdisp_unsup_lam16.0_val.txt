@@ -1,0 +1,14 @@
+run=flowdisp_unsup_lam16.0  selected at epoch 95 (Val Dice 0.737684 @ 4 steps)
+  backbone=unet  space=displacement  cascade=False
+split=Val n=58  mode=euler
+
+ steps     Dice (grouped-17)        Jneg %   logJ SD       ms
+     1         0.7305 ± 0.0327      0.000058     0.077     77.3
+     2         0.7356 ± 0.0315      0.000029     0.077    120.5
+     4         0.7377 ± 0.0306      0.000038     0.080    223.6
+     8         0.7362 ± 0.0300      0.000051     0.090    446.4
+
+step 1 -> best (4 steps): 0.7305 -> 0.7377  (+0.0072)
+max folding across all step counts: 0.000058%
+GATE: step 2 must clearly beat step 1 and Dice must not degrade with steps.
+wrote D:\YM\LFM\benchmark_atlas_to_subject\results\flowdisp_unsup_lam16.0_stepsweep_euler_val_steps1-2-4-8.csv

@@ -1,0 +1,16 @@
+C:\ProgramData\miniconda3\envs\lfm\Lib\site-packages\torch\functional.py:539: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\TensorShape.cpp:3638.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+model                         latency ms   peak VRAM MB    cohort 115 s
+VoxelMorph-1 +softDice              50.7           3002             5.8
+VxM+VecInt +softDice                61.2           3085             7.0
+v5 (frozen VAE) +softDice           20.0           1291             2.3
+v7 (frozen VAE, Euler) +softDice        69.2           1375             8.0
+
+v5 with the atlas features cached across the cohort
+v5, atlas encoded once              18.4           1381             2.1
+  saves 1.6 ms/subject (8%) vs re-encoding the atlas every time
+  vs the best non-VAE model: 50.7 -> 18.4 ms (2.76x)
+
+Measured training cost from the completed 100-epoch runs (403 subjects/epoch):
+  beta=1   VoxelMorph 126 s/ep | VxM+VecInt 154 s/ep | v5  95 s/ep
+  beta=0   VoxelMorph  86 s/ep | VxM+VecInt 114 s/ep | v5  54 s/ep

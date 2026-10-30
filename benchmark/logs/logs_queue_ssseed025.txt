@@ -1,0 +1,6 @@
+[Sun 08/30/2026 17:38:56.12] QUEUE START 
+[Sun 08/30/2026 22:05:35.17] train vxmdiff_lam0.25_s1 exit=0 
+[Sun 08/30/2026 22:07:53.43] eval test vxmdiff_lam0.25_s1 exit=0 
+[Mon 08/31/2026  2:34:46.17] train vxmdiff_lam0.25_s2 exit=0 
+[Mon 08/31/2026  2:37:04.73] eval test vxmdiff_lam0.25_s2 exit=0 
+[Mon 08/31/2026  2:37:04.74] QUEUE DONE 

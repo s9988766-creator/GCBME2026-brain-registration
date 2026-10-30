@@ -1,0 +1,72 @@
+run   : vxmdiff_lam0.25
+ckpt  : D:\YM\LFM\benchmark_atlas_to_subject\runs\vxmdiff_lam0.25\best.pth
+  arch=voxelmorph1_diff lambda=0.25 beta=1.0 selected at epoch 100 (Val Dice 0.817373)
+C:\ProgramData\miniconda3\envs\lfm\Lib\site-packages\torch\functional.py:539: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\TensorShape.cpp:3638.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+  params: trainable=274,387 total=274,387
+split : Val  n=58
+  [  1/58] subject_105                  grouped17=0.8236 Jneg%=0.0064 216.1ms
+  [  2/58] subject_108                  grouped17=0.7912 Jneg%=0.0024 61.7ms
+  [  3/58] subject_11                   grouped17=0.8276 Jneg%=0.0056 61.6ms
+  [  4/58] subject_114                  grouped17=0.7864 Jneg%=0.0047 61.4ms
+  [  5/58] subject_119                  grouped17=0.8015 Jneg%=0.0047 62.3ms
+  [  6/58] subject_126                  grouped17=0.8373 Jneg%=0.0030 66.2ms
+  [  7/58] subject_131                  grouped17=0.8293 Jneg%=0.0059 125.5ms
+  [  8/58] subject_136                  grouped17=0.8247 Jneg%=0.0066 70.4ms
+  [  9/58] subject_14                   grouped17=0.8333 Jneg%=0.0070 63.5ms
+  [ 10/58] subject_144                  grouped17=0.8074 Jneg%=0.0101 119.4ms
+  [ 11/58] subject_151                  grouped17=0.8341 Jneg%=0.0035 67.9ms
+  [ 12/58] subject_153                  grouped17=0.8252 Jneg%=0.0029 63.7ms
+  [ 13/58] subject_165                  grouped17=0.8254 Jneg%=0.0063 61.5ms
+  [ 14/58] subject_177                  grouped17=0.8194 Jneg%=0.0044 113.2ms
+  [ 15/58] subject_188                  grouped17=0.8119 Jneg%=0.0052 61.9ms
+  [ 16/58] subject_195                  grouped17=0.8244 Jneg%=0.0067 118.2ms
+  [ 17/58] subject_2                    grouped17=0.8188 Jneg%=0.0076 62.5ms
+  [ 18/58] subject_21                   grouped17=0.8228 Jneg%=0.0047 61.8ms
+  [ 19/58] subject_222                  grouped17=0.8121 Jneg%=0.0058 62.3ms
+  [ 20/58] subject_248                  grouped17=0.8243 Jneg%=0.0061 61.9ms
+  [ 21/58] subject_251                  grouped17=0.8115 Jneg%=0.0038 61.5ms
+  [ 22/58] subject_252                  grouped17=0.8339 Jneg%=0.0055 125.9ms
+  [ 23/58] subject_262                  grouped17=0.8376 Jneg%=0.0033 113.3ms
+  [ 24/58] subject_269                  grouped17=0.8057 Jneg%=0.0051 61.6ms
+  [ 25/58] subject_27                   grouped17=0.8290 Jneg%=0.0042 61.3ms
+  [ 26/58] subject_295                  grouped17=0.7866 Jneg%=0.0031 61.9ms
+  [ 27/58] subject_319                  grouped17=0.8237 Jneg%=0.0105 119.4ms
+  [ 28/58] subject_344                  grouped17=0.8299 Jneg%=0.0038 107.3ms
+  [ 29/58] subject_362                  grouped17=0.8324 Jneg%=0.0070 79.0ms
+  [ 30/58] subject_369                  grouped17=0.8168 Jneg%=0.0058 74.2ms
+  [ 31/58] subject_389                  grouped17=0.8172 Jneg%=0.0078 132.3ms
+  [ 32/58] subject_391                  grouped17=0.8307 Jneg%=0.0040 69.7ms
+  [ 33/58] subject_411                  grouped17=0.8222 Jneg%=0.0051 65.7ms
+  [ 34/58] subject_42                   grouped17=0.8108 Jneg%=0.0118 119.3ms
+  [ 35/58] subject_429                  grouped17=0.8098 Jneg%=0.0107 62.2ms
+  [ 36/58] subject_435                  grouped17=0.8317 Jneg%=0.0044 120.6ms
+  [ 37/58] subject_459                  grouped17=0.8207 Jneg%=0.0059 69.8ms
+  [ 38/58] subject_474                  grouped17=0.8033 Jneg%=0.0073 129.0ms
+  [ 39/58] subject_475                  grouped17=0.8156 Jneg%=0.0274 65.8ms
+  [ 40/58] subject_478                  grouped17=0.8160 Jneg%=0.0084 62.2ms
+  [ 41/58] subject_485                  grouped17=0.7949 Jneg%=0.0032 61.8ms
+  [ 42/58] subject_488                  grouped17=0.7906 Jneg%=0.0081 61.8ms
+  [ 43/58] subject_498                  grouped17=0.7936 Jneg%=0.0050 116.6ms
+  [ 44/58] subject_5                    grouped17=0.8219 Jneg%=0.0053 77.3ms
+  [ 45/58] subject_509                  grouped17=0.8011 Jneg%=0.0037 76.3ms
+  [ 46/58] subject_513                  grouped17=0.8225 Jneg%=0.0062 134.3ms
+  [ 47/58] subject_531                  grouped17=0.8236 Jneg%=0.0072 118.0ms
+  [ 48/58] subject_557                  grouped17=0.8038 Jneg%=0.0074 81.4ms
+  [ 49/58] subject_558                  grouped17=0.8155 Jneg%=0.0130 67.2ms
+  [ 50/58] subject_560                  grouped17=0.8203 Jneg%=0.0050 62.5ms
+  [ 51/58] subject_564                  grouped17=0.7642 Jneg%=0.0096 61.5ms
+  [ 52/58] subject_569                  grouped17=0.8272 Jneg%=0.0084 123.6ms
+  [ 53/58] subject_62                   grouped17=0.8320 Jneg%=0.0098 112.3ms
+  [ 54/58] subject_64                   grouped17=0.8321 Jneg%=0.0049 61.7ms
+  [ 55/58] subject_69                   grouped17=0.8250 Jneg%=0.0089 123.5ms
+  [ 56/58] subject_78                   grouped17=0.8245 Jneg%=0.0049 62.2ms
+  [ 57/58] subject_85                   grouped17=0.8281 Jneg%=0.0097 62.7ms
+  [ 58/58] subject_92                   grouped17=0.8201 Jneg%=0.0068 61.8ms
+vxmdiff_lam0.25 [Val]: n=58
+  Dice (official grouped-17) = 0.817373 +/- 0.014723
+  Dice (raw P30, diagnostic) = 0.816815 +/- 0.014414
+  Jneg%                      = 0.006576 +/- 0.003626
+  log-Jacobian SD            = 0.528151 +/- 0.036639
+  mean inference = 85.0 ms
+  wrote D:\YM\LFM\benchmark_atlas_to_subject\results\vxmdiff_lam0.25_val.csv

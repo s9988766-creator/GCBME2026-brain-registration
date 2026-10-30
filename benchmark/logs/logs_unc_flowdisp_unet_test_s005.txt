@@ -1,0 +1,27 @@
+run=flowdisp_unet  backbone=unet  space=displacement
+samples=10  steps=2  sigma=0.05
+split=Test n=115
+  [10/115]
+  [20/115]
+  [30/115]
+  [40/115]
+  [50/115]
+  [60/115]
+  [70/115]
+  [80/115]
+  [90/115]
+  [100/115]
+  [110/115]
+
+Dice of the sample mean : 0.8065 +/- 0.0173
+uncertainty (brain, vox): 0.0681 +/- 0.0024   range [0.0633, 0.0739]
+
+correlation between uncertainty and achieved Dice:
+  Pearson  r = -0.611  (p=4.28e-13)
+  Spearman rho = -0.530  (p=1.16e-09)
+
+A useful detector needs a clearly NEGATIVE correlation: more spread
+across samples should mean a worse registration. |rho| < 0.3 means the
+samples vary for reasons unrelated to error, and the uncertainty claim
+should be dropped rather than reported as a feature.
+wrote D:\YM\LFM\benchmark_atlas_to_subject\results\flowdisp_unet_uncertainty_test_s0.05.csv

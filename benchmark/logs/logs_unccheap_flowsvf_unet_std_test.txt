@@ -1,0 +1,20 @@
+run=flowsvf_unet_std  backbone=unet  space=velocity  split=Test
+n=115  samples=10  steps=2  sigma=0.05
+  [20/115]
+  [40/115]
+  [60/115]
+  [80/115]
+  [100/115]
+
+Dice 0.8259 +/- 0.0140   n=115
+
+     indicator   Spearman          p  top-15 hits
+   uncertainty     -0.523   2.04e-09            9
+           ncc     +0.241   9.37e-03            4
+     mean_disp     -0.188   4.47e-02            6
+      logj_std     -0.270   3.50e-03            2
+  jneg_percent     -0.033   7.29e-01            0
+        chance                                2.0
+
+The sampled variance has to beat the free indicators, not merely correlate.
+wrote D:\YM\LFM\benchmark_atlas_to_subject\results\flowsvf_unet_std_uncvscheap_test.csv

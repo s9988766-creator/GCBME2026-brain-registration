@@ -1,0 +1,22 @@
+[Tue 08/25/2026 11:09:34.97] QUEUE START 
+[Tue 08/25/2026 15:32:28.91] train vxmdiff_lam2.0 exit=0 
+[Tue 08/25/2026 15:33:40.59] eval val vxmdiff_lam2.0 exit=0 
+[Tue 08/25/2026 15:36:00.09] eval test vxmdiff_lam2.0 exit=0 
+[Tue 08/25/2026 19:58:50.23] train vxmdiff_lam4.0 exit=0 
+[Tue 08/25/2026 20:00:02.55] eval val vxmdiff_lam4.0 exit=0 
+[Tue 08/25/2026 20:02:22.43] eval test vxmdiff_lam4.0 exit=0 
+[Wed 08/26/2026  0:27:16.59] train vxmdiff_lam0.25 exit=0 
+[Wed 08/26/2026  0:28:27.79] eval val vxmdiff_lam0.25 exit=0 
+[Wed 08/26/2026  0:30:42.98] eval test vxmdiff_lam0.25 exit=0 
+[Wed 08/26/2026  4:53:05.58] train vxmdiff_lam16.0 exit=0 
+[Wed 08/26/2026  4:54:16.62] eval val vxmdiff_lam16.0 exit=0 
+[Wed 08/26/2026  4:56:35.49] eval test vxmdiff_lam16.0 exit=0 
+[Wed 08/26/2026 10:00:38.40] train flowsvf_lam4.0_s1 exit=0 
+[Wed 08/26/2026 10:10:54.39] test sweep flowsvf_lam4.0_s1 exit=0 
+[Wed 08/26/2026 15:15:03.03] train flowsvf_lam4.0_s2 exit=0 
+[Wed 08/26/2026 15:25:22.79] test sweep flowsvf_lam4.0_s2 exit=0 
+[Wed 08/26/2026 20:14:06.61] train flowcas_lam2.0_s1 exit=0 
+[Wed 08/26/2026 20:24:03.46] test sweep flowcas_lam2.0_s1 exit=0 
+[Thu 08/27/2026  1:11:46.73] train flowcas_lam2.0_s2 exit=0 
+[Thu 08/27/2026  1:21:42.85] test sweep flowcas_lam2.0_s2 exit=0 
+[Thu 08/27/2026  1:21:42.87] QUEUE DONE 

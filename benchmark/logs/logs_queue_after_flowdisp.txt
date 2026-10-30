@@ -1,0 +1,11 @@
+[Thu 08/20/2026 11:09:00.18] waiting for the displacement control arm to finish 
+[Thu 08/20/2026 15:17:02.30] control arm done 
+[Thu 08/20/2026 15:17:02.30] step sweep: flowsvf_unet Test 
+[Thu 08/20/2026 15:26:44.14]   exit=0 
+[Thu 08/20/2026 15:26:44.14] step sweep: flowdisp_unet Test 
+[Thu 08/20/2026 15:35:56.96]   exit=0 
+[Thu 08/20/2026 15:35:56.96] uncertainty: flowsvf_unet Test sigma=0.05 
+[Thu 08/20/2026 15:38:37.12]   exit=0 
+[Thu 08/20/2026 15:38:37.12] training: flowsvf_unet_std (no --train-sampler) 
+[Thu 08/20/2026 20:45:58.10]   exit=0 
+[Thu 08/20/2026 20:45:58.11] QUEUE DONE 

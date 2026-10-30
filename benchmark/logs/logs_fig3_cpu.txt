@@ -1,0 +1,3 @@
+  most confident  subject_480  Dice 0.8156  unc 0.0572
+ least confident  subject_206  Dice 0.8045  unc 0.0698
+wrote D:\YM\LFM\benchmark_atlas_to_subject\figures\fig3_uncertainty_maps.png

@@ -1,0 +1,9 @@
+[Mon 08/24/2026 23:32:43.13] waiting for the cascade queue to finish 
+[Mon 08/24/2026 23:52:53.72] cascade queue done, starting 
+[Tue 08/25/2026  4:58:29.29] train flowsvf_lam2.0 exit=0 
+[Tue 08/25/2026  5:03:37.22] val sweep flowsvf_lam2.0 exit=0 
+[Tue 08/25/2026  5:13:17.38] test sweep flowsvf_lam2.0 exit=0 
+[Tue 08/25/2026 10:03:51.43] train flowcas_lam2.0 exit=0 
+[Tue 08/25/2026 10:08:34.53] val sweep flowcas_lam2.0 exit=0 
+[Tue 08/25/2026 10:17:54.22] test sweep flowcas_lam2.0 exit=0 
+[Tue 08/25/2026 10:17:54.22] QUEUE DONE 

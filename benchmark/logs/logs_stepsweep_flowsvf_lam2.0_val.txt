@@ -1,0 +1,14 @@
+run=flowsvf_lam2.0  selected at epoch 100 (Val Dice 0.818039 @ 4 steps)
+  backbone=unet  space=velocity  cascade=False
+split=Val n=58  mode=euler
+
+ steps     Dice (grouped-17)        Jneg %   logJ SD       ms
+     1         0.8162 ± 0.0166      0.000000     0.316     84.1
+     2         0.8220 ± 0.0150      0.000003     0.330    123.2
+     4         0.8180 ± 0.0151      0.000021     0.347    231.3
+     8         0.8081 ± 0.0175      0.000029     0.367    452.4
+
+step 1 -> best (2 steps): 0.8162 -> 0.8220  (+0.0058)
+max folding across all step counts: 0.000029%
+GATE: step 2 must clearly beat step 1 and Dice must not degrade with steps.
+wrote D:\YM\LFM\benchmark_atlas_to_subject\results\flowsvf_lam2.0_stepsweep_euler_val_steps1-2-4-8.csv

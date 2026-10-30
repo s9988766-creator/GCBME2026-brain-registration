@@ -1,0 +1,147 @@
+VAE  : D:\YM\LFM\outputs\ixi_vae\vae_ixi_best.pth
+v5   : D:\YM\LFM\outputs\ixi_register_unet_l1.0_b1.0\register_ixi_best.pth
+  int_steps=7  epoch=None
+  trainable params = 678,787 (velocity decoder)
+  classes absent from the atlas segmentation: ['5th-Ventricle', 'non-WM-hypointensities', 'CC_Posterior', 'CC_Mid_Posterior', 'CC_Central', 'CC_Mid_Anterior', 'CC_Anterior']
+  grouped-17 groups touched by those: none
+Split: Test  n=115
+  [  1/115] subject_1                    s->a=0.8528 a->s=0.7279 Jneg 0.0019/0.0009 |disp|=4.18vox invres=0.0502vox
+  [  2/115] subject_110                  s->a=0.7768 a->s=0.6560 Jneg 0.0012/0.0006 |disp|=4.15vox invres=0.0493vox
+  [  3/115] subject_112                  s->a=0.8500 a->s=0.7305 Jneg 0.0012/0.0002 |disp|=4.18vox invres=0.0491vox
+  [  4/115] subject_115                  s->a=0.8381 a->s=0.7060 Jneg 0.0013/0.0006 |disp|=4.21vox invres=0.0510vox
+  [  5/115] subject_13                   s->a=0.8505 a->s=0.7316 Jneg 0.0008/0.0004 |disp|=4.31vox invres=0.0509vox
+  [  6/115] subject_135                  s->a=0.8391 a->s=0.7165 Jneg 0.0011/0.0004 |disp|=4.22vox invres=0.0491vox
+  [  7/115] subject_139                  s->a=0.8419 a->s=0.7281 Jneg 0.0010/0.0008 |disp|=4.35vox invres=0.0508vox
+  [  8/115] subject_155                  s->a=0.8563 a->s=0.7319 Jneg 0.0011/0.0004 |disp|=4.27vox invres=0.0503vox
+  [  9/115] subject_156                  s->a=0.8538 a->s=0.7333 Jneg 0.0012/0.0005 |disp|=4.17vox invres=0.0496vox
+  [ 10/115] subject_158                  s->a=0.8240 a->s=0.7156 Jneg 0.0008/0.0004 |disp|=4.17vox invres=0.0495vox
+  [ 11/115] subject_166                  s->a=0.8501 a->s=0.7274 Jneg 0.0015/0.0005 |disp|=4.19vox invres=0.0501vox
+  [ 12/115] subject_167                  s->a=0.8540 a->s=0.7323 Jneg 0.0009/0.0003 |disp|=4.23vox invres=0.0492vox
+  [ 13/115] subject_172                  s->a=0.8553 a->s=0.7258 Jneg 0.0011/0.0006 |disp|=4.29vox invres=0.0506vox
+  [ 14/115] subject_182                  s->a=0.8491 a->s=0.7220 Jneg 0.0013/0.0005 |disp|=4.29vox invres=0.0507vox
+  [ 15/115] subject_183                  s->a=0.8436 a->s=0.7136 Jneg 0.0018/0.0005 |disp|=4.29vox invres=0.0513vox
+  [ 16/115] subject_184                  s->a=0.8452 a->s=0.7273 Jneg 0.0010/0.0002 |disp|=4.25vox invres=0.0518vox
+  [ 17/115] subject_185                  s->a=0.8521 a->s=0.7205 Jneg 0.0015/0.0009 |disp|=4.28vox invres=0.0519vox
+  [ 18/115] subject_186                  s->a=0.8294 a->s=0.7003 Jneg 0.0016/0.0005 |disp|=4.25vox invres=0.0523vox
+  [ 19/115] subject_19                   s->a=0.8448 a->s=0.7195 Jneg 0.0011/0.0003 |disp|=4.23vox invres=0.0510vox
+  [ 20/115] subject_191                  s->a=0.8431 a->s=0.7163 Jneg 0.0017/0.0009 |disp|=4.28vox invres=0.0528vox
+  [ 21/115] subject_198                  s->a=0.8363 a->s=0.6988 Jneg 0.0009/0.0008 |disp|=4.19vox invres=0.0510vox
+  [ 22/115] subject_199                  s->a=0.8567 a->s=0.7344 Jneg 0.0011/0.0004 |disp|=4.25vox invres=0.0494vox
+  [ 23/115] subject_206                  s->a=0.8187 a->s=0.6715 Jneg 0.0012/0.0015 |disp|=4.40vox invres=0.0521vox
+  [ 24/115] subject_212                  s->a=0.8505 a->s=0.7193 Jneg 0.0010/0.0006 |disp|=4.28vox invres=0.0503vox
+  [ 25/115] subject_218                  s->a=0.8472 a->s=0.7320 Jneg 0.0012/0.0004 |disp|=4.30vox invres=0.0516vox
+  [ 26/115] subject_224                  s->a=0.8507 a->s=0.7139 Jneg 0.0016/0.0015 |disp|=4.30vox invres=0.0508vox
+  [ 27/115] subject_225                  s->a=0.8147 a->s=0.6629 Jneg 0.0016/0.0007 |disp|=4.27vox invres=0.0526vox
+  [ 28/115] subject_226                  s->a=0.8397 a->s=0.7200 Jneg 0.0010/0.0006 |disp|=4.43vox invres=0.0539vox
+  [ 29/115] subject_227                  s->a=0.8329 a->s=0.6917 Jneg 0.0015/0.0012 |disp|=4.31vox invres=0.0521vox
+  [ 30/115] subject_229                  s->a=0.8354 a->s=0.6902 Jneg 0.0024/0.0009 |disp|=4.19vox invres=0.0513vox
+  [ 31/115] subject_233                  s->a=0.8442 a->s=0.7188 Jneg 0.0007/0.0002 |disp|=4.33vox invres=0.0503vox
+  [ 32/115] subject_274                  s->a=0.8561 a->s=0.7364 Jneg 0.0013/0.0007 |disp|=4.34vox invres=0.0507vox
+  [ 33/115] subject_279                  s->a=0.8377 a->s=0.6960 Jneg 0.0016/0.0009 |disp|=4.29vox invres=0.0533vox
+  [ 34/115] subject_286                  s->a=0.8523 a->s=0.7313 Jneg 0.0008/0.0008 |disp|=4.24vox invres=0.0510vox
+  [ 35/115] subject_287                  s->a=0.8579 a->s=0.7395 Jneg 0.0012/0.0005 |disp|=4.12vox invres=0.0482vox
+  [ 36/115] subject_291                  s->a=0.8499 a->s=0.7240 Jneg 0.0012/0.0005 |disp|=4.22vox invres=0.0499vox
+  [ 37/115] subject_3                    s->a=0.8351 a->s=0.7007 Jneg 0.0014/0.0007 |disp|=4.27vox invres=0.0511vox
+  [ 38/115] subject_302                  s->a=0.8218 a->s=0.7105 Jneg 0.0005/0.0002 |disp|=4.27vox invres=0.0511vox
+  [ 39/115] subject_305                  s->a=0.8087 a->s=0.6771 Jneg 0.0011/0.0007 |disp|=4.43vox invres=0.0522vox
+  [ 40/115] subject_317                  s->a=0.8460 a->s=0.7230 Jneg 0.0015/0.0004 |disp|=4.24vox invres=0.0498vox
+  [ 41/115] subject_318                  s->a=0.8239 a->s=0.6807 Jneg 0.0010/0.0011 |disp|=4.27vox invres=0.0521vox
+  [ 42/115] subject_320                  s->a=0.8491 a->s=0.7321 Jneg 0.0016/0.0005 |disp|=4.27vox invres=0.0496vox
+  [ 43/115] subject_322                  s->a=0.8489 a->s=0.7180 Jneg 0.0009/0.0006 |disp|=4.19vox invres=0.0504vox
+  [ 44/115] subject_325                  s->a=0.8294 a->s=0.7055 Jneg 0.0008/0.0003 |disp|=4.36vox invres=0.0547vox
+  [ 45/115] subject_329                  s->a=0.8470 a->s=0.7171 Jneg 0.0012/0.0006 |disp|=4.28vox invres=0.0501vox
+  [ 46/115] subject_337                  s->a=0.8509 a->s=0.7201 Jneg 0.0012/0.0006 |disp|=4.22vox invres=0.0505vox
+  [ 47/115] subject_338                  s->a=0.8493 a->s=0.7157 Jneg 0.0014/0.0005 |disp|=4.20vox invres=0.0519vox
+  [ 48/115] subject_339                  s->a=0.8518 a->s=0.7269 Jneg 0.0017/0.0005 |disp|=4.34vox invres=0.0513vox
+  [ 49/115] subject_34                   s->a=0.8259 a->s=0.6779 Jneg 0.0021/0.0005 |disp|=4.19vox invres=0.0532vox
+  [ 50/115] subject_347                  s->a=0.8580 a->s=0.7367 Jneg 0.0012/0.0004 |disp|=4.26vox invres=0.0500vox
+  [ 51/115] subject_358                  s->a=0.8177 a->s=0.7162 Jneg 0.0011/0.0006 |disp|=4.25vox invres=0.0509vox
+  [ 52/115] subject_363                  s->a=0.8240 a->s=0.7154 Jneg 0.0010/0.0004 |disp|=4.31vox invres=0.0507vox
+  [ 53/115] subject_365                  s->a=0.8437 a->s=0.7121 Jneg 0.0011/0.0005 |disp|=4.28vox invres=0.0519vox
+  [ 54/115] subject_366                  s->a=0.8609 a->s=0.7464 Jneg 0.0011/0.0005 |disp|=4.21vox invres=0.0494vox
+  [ 55/115] subject_367                  s->a=0.8548 a->s=0.7279 Jneg 0.0011/0.0006 |disp|=4.25vox invres=0.0510vox
+  [ 56/115] subject_37                   s->a=0.8469 a->s=0.7208 Jneg 0.0014/0.0010 |disp|=4.27vox invres=0.0492vox
+  [ 57/115] subject_378                  s->a=0.8086 a->s=0.6699 Jneg 0.0011/0.0011 |disp|=4.57vox invres=0.0549vox
+  [ 58/115] subject_380                  s->a=0.8336 a->s=0.7053 Jneg 0.0012/0.0006 |disp|=4.33vox invres=0.0524vox
+  [ 59/115] subject_384                  s->a=0.8266 a->s=0.6950 Jneg 0.0013/0.0008 |disp|=4.35vox invres=0.0516vox
+  [ 60/115] subject_39                   s->a=0.8570 a->s=0.7382 Jneg 0.0014/0.0004 |disp|=4.25vox invres=0.0513vox
+  [ 61/115] subject_390                  s->a=0.8337 a->s=0.6956 Jneg 0.0016/0.0008 |disp|=4.14vox invres=0.0480vox
+  [ 62/115] subject_393                  s->a=0.7983 a->s=0.6647 Jneg 0.0011/0.0005 |disp|=4.31vox invres=0.0534vox
+  [ 63/115] subject_394                  s->a=0.8344 a->s=0.7077 Jneg 0.0008/0.0003 |disp|=4.33vox invres=0.0516vox
+  [ 64/115] subject_399                  s->a=0.8400 a->s=0.7129 Jneg 0.0014/0.0009 |disp|=4.22vox invres=0.0509vox
+  [ 65/115] subject_400                  s->a=0.8402 a->s=0.7155 Jneg 0.0008/0.0007 |disp|=4.21vox invres=0.0490vox
+  [ 66/115] subject_402                  s->a=0.8369 a->s=0.7065 Jneg 0.0019/0.0005 |disp|=4.25vox invres=0.0507vox
+  [ 67/115] subject_404                  s->a=0.8499 a->s=0.7096 Jneg 0.0015/0.0009 |disp|=4.25vox invres=0.0518vox
+  [ 68/115] subject_405                  s->a=0.8546 a->s=0.7309 Jneg 0.0016/0.0005 |disp|=4.19vox invres=0.0491vox
+  [ 69/115] subject_410                  s->a=0.8510 a->s=0.7284 Jneg 0.0012/0.0004 |disp|=4.19vox invres=0.0496vox
+  [ 70/115] subject_412                  s->a=0.8538 a->s=0.7310 Jneg 0.0016/0.0004 |disp|=4.23vox invres=0.0501vox
+  [ 71/115] subject_420                  s->a=0.8343 a->s=0.6960 Jneg 0.0016/0.0009 |disp|=4.35vox invres=0.0515vox
+  [ 72/115] subject_423                  s->a=0.8161 a->s=0.6865 Jneg 0.0013/0.0009 |disp|=4.45vox invres=0.0534vox
+  [ 73/115] subject_424                  s->a=0.8239 a->s=0.6896 Jneg 0.0009/0.0010 |disp|=4.41vox invres=0.0532vox
+  [ 74/115] subject_428                  s->a=0.8468 a->s=0.7193 Jneg 0.0015/0.0004 |disp|=4.23vox invres=0.0507vox
+  [ 75/115] subject_447                  s->a=0.8399 a->s=0.7353 Jneg 0.0012/0.0007 |disp|=4.30vox invres=0.0521vox
+  [ 76/115] subject_453                  s->a=0.8495 a->s=0.7208 Jneg 0.0012/0.0004 |disp|=4.26vox invres=0.0509vox
+  [ 77/115] subject_464                  s->a=0.8503 a->s=0.7259 Jneg 0.0017/0.0008 |disp|=4.24vox invres=0.0508vox
+  [ 78/115] subject_466                  s->a=0.8453 a->s=0.7038 Jneg 0.0014/0.0011 |disp|=4.20vox invres=0.0516vox
+  [ 79/115] subject_471                  s->a=0.8459 a->s=0.7125 Jneg 0.0014/0.0009 |disp|=4.11vox invres=0.0499vox
+  [ 80/115] subject_472                  s->a=0.8510 a->s=0.7251 Jneg 0.0015/0.0007 |disp|=4.25vox invres=0.0519vox
+  [ 81/115] subject_477                  s->a=0.8421 a->s=0.7300 Jneg 0.0010/0.0003 |disp|=4.34vox invres=0.0517vox
+  [ 82/115] subject_479                  s->a=0.8428 a->s=0.7127 Jneg 0.0017/0.0009 |disp|=4.21vox invres=0.0515vox
+  [ 83/115] subject_480                  s->a=0.8295 a->s=0.7144 Jneg 0.0006/0.0003 |disp|=4.26vox invres=0.0510vox
+  [ 84/115] subject_484                  s->a=0.8391 a->s=0.7047 Jneg 0.0009/0.0008 |disp|=4.31vox invres=0.0514vox
+  [ 85/115] subject_486                  s->a=0.8413 a->s=0.7046 Jneg 0.0025/0.0013 |disp|=4.28vox invres=0.0509vox
+  [ 86/115] subject_487                  s->a=0.8109 a->s=0.6733 Jneg 0.0010/0.0009 |disp|=4.42vox invres=0.0526vox
+  [ 87/115] subject_49                   s->a=0.8494 a->s=0.7275 Jneg 0.0011/0.0004 |disp|=4.20vox invres=0.0494vox
+  [ 88/115] subject_499                  s->a=0.8504 a->s=0.7198 Jneg 0.0014/0.0005 |disp|=4.29vox invres=0.0505vox
+  [ 89/115] subject_501                  s->a=0.8516 a->s=0.7248 Jneg 0.0021/0.0006 |disp|=4.26vox invres=0.0507vox
+  [ 90/115] subject_506                  s->a=0.8225 a->s=0.6778 Jneg 0.0014/0.0010 |disp|=4.46vox invres=0.0541vox
+  [ 91/115] subject_508                  s->a=0.8227 a->s=0.6702 Jneg 0.0011/0.0010 |disp|=4.34vox invres=0.0515vox
+  [ 92/115] subject_510                  s->a=0.8291 a->s=0.7030 Jneg 0.0015/0.0007 |disp|=4.34vox invres=0.0537vox
+  [ 93/115] subject_511                  s->a=0.8479 a->s=0.7253 Jneg 0.0008/0.0004 |disp|=4.24vox invres=0.0508vox
+  [ 94/115] subject_523                  s->a=0.8524 a->s=0.7298 Jneg 0.0013/0.0005 |disp|=4.26vox invres=0.0502vox
+  [ 95/115] subject_533                  s->a=0.8424 a->s=0.7184 Jneg 0.0018/0.0008 |disp|=4.32vox invres=0.0523vox
+  [ 96/115] subject_538                  s->a=0.8237 a->s=0.6932 Jneg 0.0020/0.0004 |disp|=4.23vox invres=0.0512vox
+  [ 97/115] subject_542                  s->a=0.8369 a->s=0.7085 Jneg 0.0019/0.0003 |disp|=4.27vox invres=0.0513vox
+  [ 98/115] subject_546                  s->a=0.8403 a->s=0.7231 Jneg 0.0010/0.0003 |disp|=4.26vox invres=0.0517vox
+  [ 99/115] subject_547                  s->a=0.8518 a->s=0.7301 Jneg 0.0009/0.0002 |disp|=4.21vox invres=0.0500vox
+  [100/115] subject_55                   s->a=0.8508 a->s=0.7117 Jneg 0.0012/0.0006 |disp|=4.30vox invres=0.0512vox
+  [101/115] subject_550                  s->a=0.8497 a->s=0.7310 Jneg 0.0011/0.0004 |disp|=4.33vox invres=0.0512vox
+  [102/115] subject_553                  s->a=0.8489 a->s=0.7303 Jneg 0.0012/0.0003 |disp|=4.28vox invres=0.0516vox
+  [103/115] subject_563                  s->a=0.8494 a->s=0.7208 Jneg 0.0023/0.0005 |disp|=4.19vox invres=0.0510vox
+  [104/115] subject_567                  s->a=0.8136 a->s=0.6943 Jneg 0.0013/0.0006 |disp|=4.22vox invres=0.0516vox
+  [105/115] subject_57                   s->a=0.8489 a->s=0.7255 Jneg 0.0009/0.0003 |disp|=4.25vox invres=0.0496vox
+  [106/115] subject_574                  s->a=0.8457 a->s=0.7206 Jneg 0.0009/0.0003 |disp|=4.29vox invres=0.0509vox
+  [107/115] subject_575                  s->a=0.8383 a->s=0.7076 Jneg 0.0011/0.0006 |disp|=4.37vox invres=0.0519vox
+  [108/115] subject_6                    s->a=0.8534 a->s=0.7264 Jneg 0.0013/0.0007 |disp|=4.21vox invres=0.0491vox
+  [109/115] subject_67                   s->a=0.8522 a->s=0.7275 Jneg 0.0010/0.0005 |disp|=4.29vox invres=0.0502vox
+  [110/115] subject_70                   s->a=0.8503 a->s=0.7288 Jneg 0.0012/0.0003 |disp|=4.18vox invres=0.0513vox
+  [111/115] subject_72                   s->a=0.8478 a->s=0.7135 Jneg 0.0010/0.0003 |disp|=4.21vox invres=0.0493vox
+  [112/115] subject_79                   s->a=0.8402 a->s=0.7029 Jneg 0.0016/0.0010 |disp|=4.28vox invres=0.0513vox
+  [113/115] subject_91                   s->a=0.8564 a->s=0.7399 Jneg 0.0014/0.0006 |disp|=4.17vox invres=0.0488vox
+  [114/115] subject_97                   s->a=0.8435 a->s=0.7291 Jneg 0.0012/0.0006 |disp|=4.19vox invres=0.0490vox
+  [115/115] subject_99                   s->a=0.8574 a->s=0.7367 Jneg 0.0010/0.0006 |disp|=4.33vox invres=0.0496vox
+
+v5 subject->atlas (as trained) [Test]: n=115
+  Dice (official grouped-17) = 0.841040 +/- 0.014128
+  Dice (raw P30, diagnostic) = 0.838652 +/- 0.014383
+  Jneg%                      = 0.001287 +/- 0.000362
+  log-Jacobian SD            = 0.406079 +/- 0.011613
+
+v5 atlas->subject via exp(-v)  [Test]: n=115
+  Dice (official grouped-17) = 0.713982 +/- 0.018798
+  Dice (raw P30, diagnostic) = 0.715406 +/- 0.018078
+  Jneg%                      = 0.000613 +/- 0.000262
+  log-Jacobian SD            = 0.496182 +/- 0.015108
+
+Direction effect at fixed transform: -0.1271 grouped-17 Dice
+
+Inverse validity and deformation amplitude:
+  mean |phi_inv o phi|  (0 = exact inverse)  = 0.0510 voxels
+  p99  |phi_inv o phi|                       = 0.3980 voxels
+  mean |phi|            (deformation amplitude) = 4.2679 voxels
+  p99  |phi|                                 = 8.9633 voxels
+  max  |phi|                                 = 13.5600 voxels
+  residual / displacement                    = 1.1951%
+  If the residual is a tiny fraction of the displacement, exp(-v) is a
+  valid inverse and the direction gap above is real, not an artifact.
+  wrote v5_subject_to_atlas_test.csv, v5_inverse_atlas_to_subject_test.csv

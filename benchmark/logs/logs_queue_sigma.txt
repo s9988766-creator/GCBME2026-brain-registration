@@ -1,0 +1,13 @@
+[Thu 08/20/2026 16:41:18.28] waiting for the training-scheme ablation to finish 
+[Thu 08/20/2026 20:46:03.78] ablation done 
+[Thu 08/20/2026 20:46:03.78] step sweep: flowsvf_unet_std Test 
+[Thu 08/20/2026 20:56:21.09]   exit=0 
+[Thu 08/20/2026 20:56:21.09] uncertainty: flowsvf_unet Test sigma=0.1 
+[Thu 08/20/2026 20:56:21.09]   exit=0 
+[Thu 08/20/2026 20:56:21.09] uncertainty: flowsvf_unet Test sigma=0.2 
+[Thu 08/20/2026 20:56:21.09]   exit=0 
+[Thu 08/20/2026 20:56:21.09] uncertainty: flowsvf_unet Test sigma=0.5 
+[Thu 08/20/2026 20:56:21.09]   exit=0 
+[Thu 08/20/2026 21:04:25.09] uncertainty: flowdisp_unet Test sigma=0.05 
+[Thu 08/20/2026 21:06:55.15]   exit=0 
+[Thu 08/20/2026 21:06:55.15] QUEUE DONE 

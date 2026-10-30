@@ -1,0 +1,129 @@
+run   : vxmdiff_a2s_softdice
+ckpt  : D:\YM\LFM\benchmark_atlas_to_subject\runs\vxmdiff_a2s_softdice\best.pth
+  arch=voxelmorph1_diff lambda=1.0 beta=1.0 selected at epoch 100 (Val Dice 0.813185)
+C:\ProgramData\miniconda3\envs\lfm\Lib\site-packages\torch\functional.py:539: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\TensorShape.cpp:3638.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+  params: trainable=274,387 total=274,387
+split : Test  n=115
+  [  1/115] subject_1                    grouped17=0.8359 Jneg%=0.0000 220.1ms
+  [  2/115] subject_110                  grouped17=0.7595 Jneg%=0.0000 61.5ms
+  [  3/115] subject_112                  grouped17=0.8330 Jneg%=0.0000 60.8ms
+  [  4/115] subject_115                  grouped17=0.8154 Jneg%=0.0000 60.8ms
+  [  5/115] subject_13                   grouped17=0.8294 Jneg%=0.0000 137.0ms
+  [  6/115] subject_135                  grouped17=0.8159 Jneg%=0.0000 126.0ms
+  [  7/115] subject_139                  grouped17=0.8109 Jneg%=0.0000 105.5ms
+  [  8/115] subject_155                  grouped17=0.8320 Jneg%=0.0000 75.8ms
+  [  9/115] subject_156                  grouped17=0.8275 Jneg%=0.0000 66.5ms
+  [ 10/115] subject_158                  grouped17=0.8028 Jneg%=0.0000 133.7ms
+  [ 11/115] subject_166                  grouped17=0.8211 Jneg%=0.0000 64.4ms
+  [ 12/115] subject_167                  grouped17=0.8278 Jneg%=0.0000 61.5ms
+  [ 13/115] subject_172                  grouped17=0.8253 Jneg%=0.0000 130.4ms
+  [ 14/115] subject_182                  grouped17=0.8254 Jneg%=0.0000 68.7ms
+  [ 15/115] subject_183                  grouped17=0.8161 Jneg%=0.0000 64.3ms
+  [ 16/115] subject_184                  grouped17=0.8199 Jneg%=0.0000 61.5ms
+  [ 17/115] subject_185                  grouped17=0.8259 Jneg%=0.0000 127.1ms
+  [ 18/115] subject_186                  grouped17=0.8039 Jneg%=0.0000 79.0ms
+  [ 19/115] subject_19                   grouped17=0.8185 Jneg%=0.0000 177.1ms
+  [ 20/115] subject_191                  grouped17=0.8206 Jneg%=0.0000 64.3ms
+  [ 21/115] subject_198                  grouped17=0.8044 Jneg%=0.0000 61.8ms
+  [ 22/115] subject_199                  grouped17=0.8301 Jneg%=0.0000 127.7ms
+  [ 23/115] subject_206                  grouped17=0.7911 Jneg%=0.0000 63.7ms
+  [ 24/115] subject_212                  grouped17=0.8207 Jneg%=0.0000 61.4ms
+  [ 25/115] subject_218                  grouped17=0.8178 Jneg%=0.0000 61.0ms
+  [ 26/115] subject_224                  grouped17=0.8277 Jneg%=0.0000 122.5ms
+  [ 27/115] subject_225                  grouped17=0.7793 Jneg%=0.0000 62.5ms
+  [ 28/115] subject_226                  grouped17=0.8077 Jneg%=0.0000 122.1ms
+  [ 29/115] subject_227                  grouped17=0.8069 Jneg%=0.0000 73.1ms
+  [ 30/115] subject_229                  grouped17=0.8038 Jneg%=0.0000 68.4ms
+  [ 31/115] subject_233                  grouped17=0.8201 Jneg%=0.0000 63.5ms
+  [ 32/115] subject_274                  grouped17=0.8320 Jneg%=0.0000 134.2ms
+  [ 33/115] subject_279                  grouped17=0.8066 Jneg%=0.0000 76.4ms
+  [ 34/115] subject_286                  grouped17=0.8246 Jneg%=0.0000 74.0ms
+  [ 35/115] subject_287                  grouped17=0.8290 Jneg%=0.0000 65.8ms
+  [ 36/115] subject_291                  grouped17=0.8158 Jneg%=0.0000 62.4ms
+  [ 37/115] subject_3                    grouped17=0.8116 Jneg%=0.0000 139.2ms
+  [ 38/115] subject_302                  grouped17=0.8006 Jneg%=0.0000 64.3ms
+  [ 39/115] subject_305                  grouped17=0.7900 Jneg%=0.0000 61.5ms
+  [ 40/115] subject_317                  grouped17=0.8199 Jneg%=0.0000 119.8ms
+  [ 41/115] subject_318                  grouped17=0.7882 Jneg%=0.0000 60.6ms
+  [ 42/115] subject_320                  grouped17=0.8299 Jneg%=0.0000 60.6ms
+  [ 43/115] subject_322                  grouped17=0.8141 Jneg%=0.0000 122.9ms
+  [ 44/115] subject_325                  grouped17=0.7968 Jneg%=0.0000 61.9ms
+  [ 45/115] subject_329                  grouped17=0.8205 Jneg%=0.0000 60.6ms
+  [ 46/115] subject_337                  grouped17=0.8209 Jneg%=0.0000 112.6ms
+  [ 47/115] subject_338                  grouped17=0.8200 Jneg%=0.0000 60.5ms
+  [ 48/115] subject_339                  grouped17=0.8231 Jneg%=0.0000 60.6ms
+  [ 49/115] subject_34                   grouped17=0.7867 Jneg%=0.0000 125.9ms
+  [ 50/115] subject_347                  grouped17=0.8391 Jneg%=0.0000 65.8ms
+  [ 51/115] subject_358                  grouped17=0.7937 Jneg%=0.0000 62.7ms
+  [ 52/115] subject_363                  grouped17=0.8065 Jneg%=0.0000 147.6ms
+  [ 53/115] subject_365                  grouped17=0.8119 Jneg%=0.0000 64.7ms
+  [ 54/115] subject_366                  grouped17=0.8366 Jneg%=0.0000 61.8ms
+  [ 55/115] subject_367                  grouped17=0.8236 Jneg%=0.0000 60.7ms
+  [ 56/115] subject_37                   grouped17=0.8227 Jneg%=0.0000 60.8ms
+  [ 57/115] subject_378                  grouped17=0.7848 Jneg%=0.0000 124.2ms
+  [ 58/115] subject_380                  grouped17=0.8037 Jneg%=0.0000 62.4ms
+  [ 59/115] subject_384                  grouped17=0.8036 Jneg%=0.0000 60.8ms
+  [ 60/115] subject_39                   grouped17=0.8289 Jneg%=0.0000 133.6ms
+  [ 61/115] subject_390                  grouped17=0.8067 Jneg%=0.0000 64.8ms
+  [ 62/115] subject_393                  grouped17=0.7690 Jneg%=0.0000 61.6ms
+  [ 63/115] subject_394                  grouped17=0.8135 Jneg%=0.0000 128.6ms
+  [ 64/115] subject_399                  grouped17=0.8132 Jneg%=0.0000 111.3ms
+  [ 65/115] subject_400                  grouped17=0.8202 Jneg%=0.0000 67.1ms
+  [ 66/115] subject_402                  grouped17=0.8094 Jneg%=0.0000 154.3ms
+  [ 67/115] subject_404                  grouped17=0.8204 Jneg%=0.0000 64.8ms
+  [ 68/115] subject_405                  grouped17=0.8342 Jneg%=0.0000 61.6ms
+  [ 69/115] subject_410                  grouped17=0.8223 Jneg%=0.0000 116.7ms
+  [ 70/115] subject_412                  grouped17=0.8269 Jneg%=0.0000 66.5ms
+  [ 71/115] subject_420                  grouped17=0.8022 Jneg%=0.0000 62.7ms
+  [ 72/115] subject_423                  grouped17=0.7903 Jneg%=0.0000 62.3ms
+  [ 73/115] subject_424                  grouped17=0.7938 Jneg%=0.0000 136.0ms
+  [ 74/115] subject_428                  grouped17=0.8175 Jneg%=0.0000 118.8ms
+  [ 75/115] subject_447                  grouped17=0.8112 Jneg%=0.0000 66.0ms
+  [ 76/115] subject_453                  grouped17=0.8253 Jneg%=0.0000 63.0ms
+  [ 77/115] subject_464                  grouped17=0.8184 Jneg%=0.0000 134.2ms
+  [ 78/115] subject_466                  grouped17=0.8176 Jneg%=0.0000 72.1ms
+  [ 79/115] subject_471                  grouped17=0.8213 Jneg%=0.0000 68.4ms
+  [ 80/115] subject_472                  grouped17=0.8234 Jneg%=0.0000 63.7ms
+  [ 81/115] subject_477                  grouped17=0.8191 Jneg%=0.0000 107.4ms
+  [ 82/115] subject_479                  grouped17=0.8156 Jneg%=0.0000 147.2ms
+  [ 83/115] subject_480                  grouped17=0.8004 Jneg%=0.0000 124.4ms
+  [ 84/115] subject_484                  grouped17=0.8098 Jneg%=0.0000 65.9ms
+  [ 85/115] subject_486                  grouped17=0.8112 Jneg%=0.0000 64.4ms
+  [ 86/115] subject_487                  grouped17=0.7833 Jneg%=0.0000 63.6ms
+  [ 87/115] subject_49                   grouped17=0.8186 Jneg%=0.0000 61.5ms
+  [ 88/115] subject_499                  grouped17=0.8277 Jneg%=0.0000 120.8ms
+  [ 89/115] subject_501                  grouped17=0.8192 Jneg%=0.0000 73.8ms
+  [ 90/115] subject_506                  grouped17=0.7964 Jneg%=0.0000 67.7ms
+  [ 91/115] subject_508                  grouped17=0.7882 Jneg%=0.0000 167.8ms
+  [ 92/115] subject_510                  grouped17=0.8059 Jneg%=0.0000 64.6ms
+  [ 93/115] subject_511                  grouped17=0.8187 Jneg%=0.0000 62.9ms
+  [ 94/115] subject_523                  grouped17=0.8302 Jneg%=0.0000 138.8ms
+  [ 95/115] subject_533                  grouped17=0.8243 Jneg%=0.0000 75.0ms
+  [ 96/115] subject_538                  grouped17=0.7892 Jneg%=0.0000 68.2ms
+  [ 97/115] subject_542                  grouped17=0.8185 Jneg%=0.0000 65.6ms
+  [ 98/115] subject_546                  grouped17=0.8120 Jneg%=0.0000 142.2ms
+  [ 99/115] subject_547                  grouped17=0.8244 Jneg%=0.0000 118.0ms
+  [100/115] subject_55                   grouped17=0.8198 Jneg%=0.0000 60.9ms
+  [101/115] subject_550                  grouped17=0.8281 Jneg%=0.0001 151.3ms
+  [102/115] subject_553                  grouped17=0.8215 Jneg%=0.0000 64.8ms
+  [103/115] subject_563                  grouped17=0.8184 Jneg%=0.0000 61.6ms
+  [104/115] subject_567                  grouped17=0.7909 Jneg%=0.0000 151.1ms
+  [105/115] subject_57                   grouped17=0.8151 Jneg%=0.0000 64.4ms
+  [106/115] subject_574                  grouped17=0.8276 Jneg%=0.0000 61.6ms
+  [107/115] subject_575                  grouped17=0.8174 Jneg%=0.0000 60.6ms
+  [108/115] subject_6                    grouped17=0.8284 Jneg%=0.0000 60.6ms
+  [109/115] subject_67                   grouped17=0.8228 Jneg%=0.0000 121.8ms
+  [110/115] subject_70                   grouped17=0.8275 Jneg%=0.0000 61.8ms
+  [111/115] subject_72                   grouped17=0.8186 Jneg%=0.0000 60.7ms
+  [112/115] subject_79                   grouped17=0.8124 Jneg%=0.0000 60.7ms
+  [113/115] subject_91                   grouped17=0.8392 Jneg%=0.0000 60.6ms
+  [114/115] subject_97                   grouped17=0.8269 Jneg%=0.0000 133.0ms
+  [115/115] subject_99                   grouped17=0.8298 Jneg%=0.0000 73.3ms
+vxmdiff_a2s_softdice [Test]: n=115
+  Dice (official grouped-17) = 0.814574 +/- 0.014816
+  Dice (raw P30, diagnostic) = 0.813392 +/- 0.014716
+  Jneg%                      = 0.000004 +/- 0.000011
+  log-Jacobian SD            = 0.363385 +/- 0.020773
+  mean inference = 88.0 ms
+  wrote D:\YM\LFM\benchmark_atlas_to_subject\results\vxmdiff_a2s_softdice_test.csv

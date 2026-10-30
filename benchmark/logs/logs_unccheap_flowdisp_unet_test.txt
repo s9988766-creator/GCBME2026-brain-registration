@@ -1,0 +1,20 @@
+run=flowdisp_unet  backbone=unet  space=displacement  split=Test
+n=115  samples=10  steps=2  sigma=0.05
+  [20/115]
+  [40/115]
+  [60/115]
+  [80/115]
+  [100/115]
+
+Dice 0.8065 +/- 0.0173   n=115
+
+     indicator   Spearman          p  top-15 hits
+   uncertainty     -0.530   1.16e-09           11
+           ncc     +0.320   4.95e-04            6
+     mean_disp     -0.180   5.47e-02            8
+      logj_std     -0.142   1.29e-01            2
+  jneg_percent     -0.138   1.42e-01            2
+        chance                                2.0
+
+The sampled variance has to beat the free indicators, not merely correlate.
+wrote D:\YM\LFM\benchmark_atlas_to_subject\results\flowdisp_unet_uncvscheap_test.csv

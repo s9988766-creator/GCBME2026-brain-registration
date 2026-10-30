@@ -1,0 +1,6 @@
+[Mon 08/10/2026 22:57:45.85] QUEUE START 
+[Mon 08/10/2026 22:57:45.85] starting voxelmorph1 beta=1.0 
+[Tue 08/11/2026  2:33:12.89] voxelmorph1 beta=1.0 finished exit=0 
+[Tue 08/11/2026  2:33:12.90] starting voxelmorph1 beta=0.0 
+[Tue 08/11/2026  5:01:36.59] voxelmorph1 beta=0.0 finished exit=0 
+[Tue 08/11/2026  5:01:36.60] QUEUE DONE 

@@ -1,0 +1,17 @@
+[Sun 08/23/2026 22:45:54.37] QUEUE START 
+[Mon 08/24/2026  3:39:23.65] train flowcas_lam1.0 exit=0 
+[Mon 08/24/2026  3:44:11.32] val sweep flowcas_lam1.0 exit=0 
+[Mon 08/24/2026  3:54:40.65] test sweep flowcas_lam1.0 exit=0 
+[Mon 08/24/2026  8:14:41.03] train flowdisp_lam64.0 exit=0 
+[Mon 08/24/2026  8:19:17.30] val sweep flowdisp_lam64.0 exit=0 
+[Mon 08/24/2026  8:28:24.00] test sweep flowdisp_lam64.0 exit=0 
+[Mon 08/24/2026  8:28:24.00] train flowcas_lam4.0 exit=0 
+[Mon 08/24/2026  8:28:24.00] val sweep flowcas_lam4.0 exit=0 
+[Mon 08/24/2026  8:28:24.00] test sweep flowcas_lam4.0 exit=0 
+[Mon 08/24/2026  8:28:24.00] train flowcas_lam0.25 exit=0 
+[Mon 08/24/2026  8:28:24.00] val sweep flowcas_lam0.25 exit=0 
+[Mon 08/24/2026  8:28:24.00] test sweep flowcas_lam0.25 exit=0 
+[Mon 08/24/2026  8:28:24.00] train flowcas_lam16.0 exit=0 
+[Mon 08/24/2026  8:28:24.00] val sweep flowcas_lam16.0 exit=0 
+[Mon 08/24/2026  8:28:24.00] test sweep flowcas_lam16.0 exit=0 
+[Mon 08/24/2026 23:52:44.09] QUEUE DONE 

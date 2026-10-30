@@ -1,0 +1,8 @@
+[Sat 09/05/2026 18:26:58.96] QUEUE START 
+[Sat 09/05/2026 22:41:17.93] train flowdisp_lam256.0_s1 exit=0 
+[Sat 09/05/2026 22:47:14.79] val sweep flowdisp_lam256.0_s1 exit=0 
+[Sat 09/05/2026 22:58:48.00] test sweep flowdisp_lam256.0_s1 exit=0 
+[Sun 09/06/2026  3:12:58.08] train flowdisp_lam256.0_s2 exit=0 
+[Sun 09/06/2026  3:18:49.45] val sweep flowdisp_lam256.0_s2 exit=0 
+[Sun 09/06/2026  3:30:22.46] test sweep flowdisp_lam256.0_s2 exit=0 
+[Sun 09/06/2026  3:30:22.48] QUEUE DONE 

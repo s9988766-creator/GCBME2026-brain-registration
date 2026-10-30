@@ -1,0 +1,21 @@
+run=flowsvf_unet_std  backbone=unet  space=velocity
+samples=10  steps=2  sigma=0.5
+split=Val n=58
+  [10/58]
+  [20/58]
+  [30/58]
+  [40/58]
+  [50/58]
+
+Dice of the sample mean : 0.8185 +/- 0.0160
+uncertainty (brain, vox): 0.5466 +/- 0.0187   range [0.5121, 0.5916]
+
+correlation between uncertainty and achieved Dice:
+  Pearson  r = -0.387  (p=2.70e-03)
+  Spearman rho = -0.453  (p=3.55e-04)
+
+A useful detector needs a clearly NEGATIVE correlation: more spread
+across samples should mean a worse registration. |rho| < 0.3 means the
+samples vary for reasons unrelated to error, and the uncertainty claim
+should be dropped rather than reported as a feature.
+wrote D:\YM\LFM\benchmark_atlas_to_subject\results\flowsvf_unet_std_uncertainty_val_s0.5.csv

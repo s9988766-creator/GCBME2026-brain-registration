@@ -1,0 +1,24 @@
+[Fri 08/21/2026 22:10:00.93] waiting for the seed queue 
+[Sat 08/22/2026 11:49:49.08] seeds done 
+[Sat 08/22/2026 11:49:49.09] squaring 8 exit=0 
+[Sat 08/22/2026 11:49:49.09] squaring 10 exit=0 
+[Sat 08/22/2026 11:49:49.09] squaring 12 exit=0 
+[Sat 08/22/2026 11:56:10.73] train flowsvf_lam0.25 exit=0 
+[Sat 08/22/2026 11:56:10.73] val sweep flowsvf_lam0.25 exit=0 
+[Sat 08/22/2026 11:56:10.73] test sweep flowsvf_lam0.25 exit=0 
+[Sat 08/22/2026 11:56:10.73] train flowsvf_lam4.0 exit=0 
+[Sat 08/22/2026 11:56:10.73] val sweep flowsvf_lam4.0 exit=0 
+[Sat 08/22/2026 11:56:10.73] test sweep flowsvf_lam4.0 exit=0 
+[Sat 08/22/2026 11:56:10.73] train flowsvf_lam16.0 exit=0 
+[Sat 08/22/2026 11:56:10.73] val sweep flowsvf_lam16.0 exit=0 
+[Sat 08/22/2026 11:56:10.73] test sweep flowsvf_lam16.0 exit=0 
+[Sat 08/22/2026 11:56:10.73] train flowdisp_lam0.25 exit=0 
+[Sat 08/22/2026 11:56:10.73] val sweep flowdisp_lam0.25 exit=0 
+[Sat 08/22/2026 11:56:10.73] test sweep flowdisp_lam0.25 exit=0 
+[Sat 08/22/2026 11:56:10.73] train flowdisp_lam4.0 exit=0 
+[Sat 08/22/2026 11:56:10.73] val sweep flowdisp_lam4.0 exit=0 
+[Sat 08/22/2026 11:56:10.73] test sweep flowdisp_lam4.0 exit=0 
+[Sat 08/22/2026 11:56:10.73] train flowdisp_lam16.0 exit=0 
+[Sat 08/22/2026 11:56:10.73] val sweep flowdisp_lam16.0 exit=0 
+[Sat 08/22/2026 11:56:10.73] test sweep flowdisp_lam16.0 exit=0 
+[Sun 08/23/2026 17:42:20.12] QUEUE DONE 

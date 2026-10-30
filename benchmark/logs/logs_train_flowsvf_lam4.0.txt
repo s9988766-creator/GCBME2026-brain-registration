@@ -1,0 +1,110 @@
+arch=flow backbone=unet space=velocity  trainable params=306,595
+warmup=2 ep  reflow after  EMA=0.999  sigma=0.05
+lambda=4.0 beta=1.0 epochs=100
+model selection at 4 sampling steps
+train_sampler=False
+save_dir=D:\YM\LFM\benchmark_atlas_to_subject\runs\flowsvf_lam4.0
+train n=403  val n=58
+[ep 001] warmup lr=1.00e-04 loss=0.3772 NCC=0.0908 smooth=0.0020 softDiceLoss=0.4601 (160s)
+[ep 002] warmup lr=9.91e-05 loss=0.3566 NCC=0.0937 smooth=0.0020 softDiceLoss=0.4424 (157s)
+[ep 003] reflow lr=9.82e-05 loss=0.3586 NCC=0.0942 smooth=0.0018 softDiceLoss=0.4455 (179s)
+[ep 004] reflow lr=9.73e-05 loss=0.3501 NCC=0.0965 smooth=0.0018 softDiceLoss=0.4392 (179s)
+[ep 005] reflow lr=9.64e-05 loss=0.3491 NCC=0.0966 smooth=0.0018 softDiceLoss=0.4386 (179s)  valDice@4=0.6362  * saved best
+[ep 006] reflow lr=9.55e-05 loss=0.3473 NCC=0.0971 smooth=0.0017 softDiceLoss=0.4374 (180s)
+[ep 007] reflow lr=9.46e-05 loss=0.3466 NCC=0.0975 smooth=0.0018 softDiceLoss=0.4371 (179s)
+[ep 008] reflow lr=9.37e-05 loss=0.3455 NCC=0.0981 smooth=0.0018 softDiceLoss=0.4363 (179s)
+[ep 009] reflow lr=9.28e-05 loss=0.3386 NCC=0.1001 smooth=0.0020 softDiceLoss=0.4308 (179s)
+[ep 010] reflow lr=9.19e-05 loss=0.3361 NCC=0.1011 smooth=0.0021 softDiceLoss=0.4286 (179s)  valDice@4=0.6639  * saved best
+[ep 011] reflow lr=9.10e-05 loss=0.3318 NCC=0.1022 smooth=0.0022 softDiceLoss=0.4251 (180s)
+[ep 012] reflow lr=9.00e-05 loss=0.3261 NCC=0.1037 smooth=0.0023 softDiceLoss=0.4206 (179s)
+[ep 013] reflow lr=8.91e-05 loss=0.3228 NCC=0.1047 smooth=0.0024 softDiceLoss=0.4180 (179s)
+[ep 014] reflow lr=8.82e-05 loss=0.3145 NCC=0.1069 smooth=0.0026 softDiceLoss=0.4111 (179s)
+[ep 015] reflow lr=8.73e-05 loss=0.3039 NCC=0.1097 smooth=0.0029 softDiceLoss=0.4021 (179s)  valDice@4=0.6454
+[ep 016] reflow lr=8.64e-05 loss=0.2948 NCC=0.1119 smooth=0.0031 softDiceLoss=0.3943 (179s)
+[ep 017] reflow lr=8.55e-05 loss=0.2863 NCC=0.1145 smooth=0.0033 softDiceLoss=0.3876 (179s)
+[ep 018] reflow lr=8.46e-05 loss=0.2765 NCC=0.1167 smooth=0.0035 softDiceLoss=0.3793 (179s)
+[ep 019] reflow lr=8.36e-05 loss=0.2682 NCC=0.1190 smooth=0.0037 softDiceLoss=0.3724 (179s)
+[ep 020] reflow lr=8.27e-05 loss=0.2615 NCC=0.1209 smooth=0.0039 softDiceLoss=0.3670 (179s)  valDice@4=0.7049  * saved best
+[ep 021] reflow lr=8.18e-05 loss=0.2560 NCC=0.1230 smooth=0.0041 softDiceLoss=0.3625 (180s)
+[ep 022] reflow lr=8.09e-05 loss=0.2503 NCC=0.1252 smooth=0.0043 softDiceLoss=0.3582 (179s)
+[ep 023] reflow lr=8.00e-05 loss=0.2465 NCC=0.1271 smooth=0.0046 softDiceLoss=0.3553 (179s)
+[ep 024] reflow lr=7.90e-05 loss=0.2411 NCC=0.1290 smooth=0.0048 softDiceLoss=0.3510 (179s)
+[ep 025] reflow lr=7.81e-05 loss=0.2363 NCC=0.1311 smooth=0.0051 softDiceLoss=0.3472 (179s)  valDice@4=0.7391  * saved best
+[ep 026] reflow lr=7.72e-05 loss=0.2318 NCC=0.1334 smooth=0.0054 softDiceLoss=0.3438 (180s)
+[ep 027] reflow lr=7.63e-05 loss=0.2244 NCC=0.1362 smooth=0.0057 softDiceLoss=0.3380 (179s)
+[ep 028] reflow lr=7.53e-05 loss=0.2183 NCC=0.1390 smooth=0.0060 softDiceLoss=0.3335 (179s)
+[ep 029] reflow lr=7.44e-05 loss=0.2106 NCC=0.1421 smooth=0.0062 softDiceLoss=0.3278 (179s)
+[ep 030] reflow lr=7.35e-05 loss=0.2035 NCC=0.1449 smooth=0.0064 softDiceLoss=0.3228 (179s)  valDice@4=0.7142
+[ep 031] reflow lr=7.25e-05 loss=0.1972 NCC=0.1474 smooth=0.0065 softDiceLoss=0.3184 (179s)
+[ep 032] reflow lr=7.16e-05 loss=0.1910 NCC=0.1497 smooth=0.0067 softDiceLoss=0.3138 (179s)
+[ep 033] reflow lr=7.07e-05 loss=0.1874 NCC=0.1514 smooth=0.0068 softDiceLoss=0.3115 (179s)
+[ep 034] reflow lr=6.97e-05 loss=0.1823 NCC=0.1538 smooth=0.0070 softDiceLoss=0.3080 (179s)
+[ep 035] reflow lr=6.88e-05 loss=0.1784 NCC=0.1557 smooth=0.0072 softDiceLoss=0.3052 (180s)  valDice@4=0.7677  * saved best
+[ep 036] reflow lr=6.79e-05 loss=0.1755 NCC=0.1574 smooth=0.0074 softDiceLoss=0.3034 (180s)
+[ep 037] reflow lr=6.69e-05 loss=0.1721 NCC=0.1594 smooth=0.0076 softDiceLoss=0.3012 (180s)
+[ep 038] reflow lr=6.60e-05 loss=0.1687 NCC=0.1612 smooth=0.0077 softDiceLoss=0.2990 (179s)
+[ep 039] reflow lr=6.50e-05 loss=0.1670 NCC=0.1625 smooth=0.0079 softDiceLoss=0.2980 (180s)
+[ep 040] reflow lr=6.41e-05 loss=0.1631 NCC=0.1644 smooth=0.0081 softDiceLoss=0.2952 (179s)  valDice@4=0.7856  * saved best
+[ep 041] reflow lr=6.31e-05 loss=0.1614 NCC=0.1657 smooth=0.0082 softDiceLoss=0.2943 (180s)
+[ep 042] reflow lr=6.22e-05 loss=0.1583 NCC=0.1674 smooth=0.0084 softDiceLoss=0.2922 (180s)
+[ep 043] reflow lr=6.12e-05 loss=0.1561 NCC=0.1689 smooth=0.0085 softDiceLoss=0.2909 (179s)
+[ep 044] reflow lr=6.03e-05 loss=0.1537 NCC=0.1701 smooth=0.0087 softDiceLoss=0.2892 (180s)
+[ep 045] reflow lr=5.93e-05 loss=0.1519 NCC=0.1715 smooth=0.0088 softDiceLoss=0.2882 (179s)  valDice@4=0.7901  * saved best
+[ep 046] reflow lr=5.84e-05 loss=0.1500 NCC=0.1727 smooth=0.0089 softDiceLoss=0.2869 (180s)
+[ep 047] reflow lr=5.74e-05 loss=0.1476 NCC=0.1738 smooth=0.0091 softDiceLoss=0.2852 (180s)
+[ep 048] reflow lr=5.65e-05 loss=0.1458 NCC=0.1749 smooth=0.0092 softDiceLoss=0.2841 (180s)
+[ep 049] reflow lr=5.55e-05 loss=0.1452 NCC=0.1756 smooth=0.0092 softDiceLoss=0.2839 (179s)
+[ep 050] reflow lr=5.45e-05 loss=0.1430 NCC=0.1767 smooth=0.0094 softDiceLoss=0.2822 (179s)  valDice@4=0.7873
+[ep 051] reflow lr=5.36e-05 loss=0.1409 NCC=0.1776 smooth=0.0095 softDiceLoss=0.2807 (180s)
+[ep 052] reflow lr=5.26e-05 loss=0.1394 NCC=0.1786 smooth=0.0095 softDiceLoss=0.2799 (179s)
+[ep 053] reflow lr=5.17e-05 loss=0.1387 NCC=0.1792 smooth=0.0096 softDiceLoss=0.2794 (179s)
+[ep 054] reflow lr=5.07e-05 loss=0.1369 NCC=0.1800 smooth=0.0097 softDiceLoss=0.2781 (179s)
+[ep 055] reflow lr=4.97e-05 loss=0.1351 NCC=0.1806 smooth=0.0097 softDiceLoss=0.2768 (179s)  valDice@4=0.7975  * saved best
+[ep 056] reflow lr=4.87e-05 loss=0.1350 NCC=0.1812 smooth=0.0098 softDiceLoss=0.2770 (180s)
+[ep 057] reflow lr=4.78e-05 loss=0.1337 NCC=0.1816 smooth=0.0098 softDiceLoss=0.2760 (180s)
+[ep 058] reflow lr=4.68e-05 loss=0.1320 NCC=0.1825 smooth=0.0099 softDiceLoss=0.2748 (180s)
+[ep 059] reflow lr=4.58e-05 loss=0.1313 NCC=0.1829 smooth=0.0100 softDiceLoss=0.2743 (180s)
+[ep 060] reflow lr=4.48e-05 loss=0.1295 NCC=0.1836 smooth=0.0100 softDiceLoss=0.2729 (180s)  valDice@4=0.7901
+[ep 061] reflow lr=4.38e-05 loss=0.1287 NCC=0.1841 smooth=0.0101 softDiceLoss=0.2724 (180s)
+[ep 062] reflow lr=4.28e-05 loss=0.1280 NCC=0.1846 smooth=0.0101 softDiceLoss=0.2720 (180s)
+[ep 063] reflow lr=4.19e-05 loss=0.1271 NCC=0.1849 smooth=0.0102 softDiceLoss=0.2713 (180s)
+[ep 064] reflow lr=4.09e-05 loss=0.1268 NCC=0.1853 smooth=0.0102 softDiceLoss=0.2713 (180s)
+[ep 065] reflow lr=3.99e-05 loss=0.1250 NCC=0.1858 smooth=0.0103 softDiceLoss=0.2698 (180s)  valDice@4=0.7996  * saved best
+[ep 066] reflow lr=3.89e-05 loss=0.1242 NCC=0.1861 smooth=0.0103 softDiceLoss=0.2694 (180s)
+[ep 067] reflow lr=3.79e-05 loss=0.1238 NCC=0.1863 smooth=0.0103 softDiceLoss=0.2689 (180s)
+[ep 068] reflow lr=3.69e-05 loss=0.1227 NCC=0.1868 smooth=0.0104 softDiceLoss=0.2681 (179s)
+[ep 069] reflow lr=3.59e-05 loss=0.1219 NCC=0.1872 smooth=0.0104 softDiceLoss=0.2676 (180s)
+[ep 070] reflow lr=3.49e-05 loss=0.1214 NCC=0.1875 smooth=0.0104 softDiceLoss=0.2672 (180s)  valDice@4=0.8032  * saved best
+[ep 071] reflow lr=3.38e-05 loss=0.1206 NCC=0.1879 smooth=0.0105 softDiceLoss=0.2666 (180s)
+[ep 072] reflow lr=3.28e-05 loss=0.1202 NCC=0.1881 smooth=0.0105 softDiceLoss=0.2665 (179s)
+[ep 073] reflow lr=3.18e-05 loss=0.1193 NCC=0.1884 smooth=0.0105 softDiceLoss=0.2657 (179s)
+[ep 074] reflow lr=3.08e-05 loss=0.1185 NCC=0.1889 smooth=0.0106 softDiceLoss=0.2651 (179s)
+[ep 075] reflow lr=2.98e-05 loss=0.1188 NCC=0.1888 smooth=0.0105 softDiceLoss=0.2654 (179s)  valDice@4=0.8027
+[ep 076] reflow lr=2.87e-05 loss=0.1179 NCC=0.1892 smooth=0.0106 softDiceLoss=0.2648 (180s)
+[ep 077] reflow lr=2.77e-05 loss=0.1173 NCC=0.1895 smooth=0.0106 softDiceLoss=0.2643 (180s)
+[ep 078] reflow lr=2.66e-05 loss=0.1165 NCC=0.1896 smooth=0.0106 softDiceLoss=0.2637 (180s)
+[ep 079] reflow lr=2.56e-05 loss=0.1158 NCC=0.1900 smooth=0.0107 softDiceLoss=0.2632 (179s)
+[ep 080] reflow lr=2.46e-05 loss=0.1152 NCC=0.1904 smooth=0.0107 softDiceLoss=0.2628 (180s)  valDice@4=0.8075  * saved best
+[ep 081] reflow lr=2.35e-05 loss=0.1148 NCC=0.1904 smooth=0.0107 softDiceLoss=0.2624 (180s)
+[ep 082] reflow lr=2.24e-05 loss=0.1146 NCC=0.1906 smooth=0.0107 softDiceLoss=0.2622 (180s)
+[ep 083] reflow lr=2.14e-05 loss=0.1142 NCC=0.1906 smooth=0.0107 softDiceLoss=0.2620 (180s)
+[ep 084] reflow lr=2.03e-05 loss=0.1134 NCC=0.1910 smooth=0.0108 softDiceLoss=0.2613 (180s)
+[ep 085] reflow lr=1.92e-05 loss=0.1135 NCC=0.1911 smooth=0.0108 softDiceLoss=0.2613 (180s)  valDice@4=0.8062
+[ep 086] reflow lr=1.81e-05 loss=0.1129 NCC=0.1913 smooth=0.0108 softDiceLoss=0.2610 (179s)
+[ep 087] reflow lr=1.70e-05 loss=0.1123 NCC=0.1915 smooth=0.0108 softDiceLoss=0.2605 (180s)
+[ep 088] reflow lr=1.59e-05 loss=0.1122 NCC=0.1916 smooth=0.0108 softDiceLoss=0.2604 (180s)
+[ep 089] reflow lr=1.48e-05 loss=0.1112 NCC=0.1919 smooth=0.0109 softDiceLoss=0.2597 (180s)
+[ep 090] reflow lr=1.37e-05 loss=0.1110 NCC=0.1920 smooth=0.0109 softDiceLoss=0.2595 (180s)  valDice@4=0.8124  * saved best
+[ep 091] reflow lr=1.26e-05 loss=0.1109 NCC=0.1921 smooth=0.0109 softDiceLoss=0.2595 (180s)
+[ep 092] reflow lr=1.15e-05 loss=0.1105 NCC=0.1922 smooth=0.0109 softDiceLoss=0.2591 (180s)
+[ep 093] reflow lr=1.03e-05 loss=0.1103 NCC=0.1923 smooth=0.0109 softDiceLoss=0.2590 (180s)
+[ep 094] reflow lr=9.13e-06 loss=0.1098 NCC=0.1925 smooth=0.0109 softDiceLoss=0.2585 (180s)
+[ep 095] reflow lr=7.95e-06 loss=0.1093 NCC=0.1926 smooth=0.0109 softDiceLoss=0.2582 (180s)  valDice@4=0.8129  * saved best
+[ep 096] reflow lr=6.75e-06 loss=0.1092 NCC=0.1927 smooth=0.0110 softDiceLoss=0.2580 (180s)
+[ep 097] reflow lr=5.52e-06 loss=0.1090 NCC=0.1926 smooth=0.0109 softDiceLoss=0.2579 (180s)
+[ep 098] reflow lr=4.26e-06 loss=0.1091 NCC=0.1927 smooth=0.0110 softDiceLoss=0.2579 (180s)
+[ep 099] reflow lr=2.96e-06 loss=0.1088 NCC=0.1927 smooth=0.0110 softDiceLoss=0.2576 (180s)
+[ep 100] reflow lr=1.58e-06 loss=0.1084 NCC=0.1929 smooth=0.0110 softDiceLoss=0.2574 (180s)  valDice@4=0.8132  * saved best
+
+best Val grouped-17 Dice @4 steps = 0.813153
+checkpoint: D:\YM\LFM\benchmark_atlas_to_subject\runs\flowsvf_lam4.0\best.pth

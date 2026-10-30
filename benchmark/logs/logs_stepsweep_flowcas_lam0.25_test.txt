@@ -1,0 +1,16 @@
+run=flowcas_lam0.25  selected at epoch 100 (Val Dice 0.822413 @ 2 steps)
+  backbone=unet  space=velocity  cascade=True
+  (steps = number of CASCADE STAGES; trained at 2, so other counts are out of distribution)
+split=Test n=115  mode=euler
+
+ steps     Dice (grouped-17)        Jneg %   logJ SD       ms
+     1         0.8231 ± 0.0150      0.008134     0.545     86.7
+     2         0.8231 ± 0.0150      0.007053     0.542    134.7
+     4         0.8225 ± 0.0151      0.011217     0.547    269.1
+     8         0.8192 ± 0.0157      0.025918     0.580    538.2
+wrote D:\YM\LFM\benchmark_atlas_to_subject\results\flowcas_lam0.25_persubject_euler_test.csv
+
+step 1 -> best (2 steps): 0.8231 -> 0.8231  (+0.0000)
+max folding across all step counts: 0.025918%
+GATE: step 2 must clearly beat step 1 and Dice must not degrade with steps.
+wrote D:\YM\LFM\benchmark_atlas_to_subject\results\flowcas_lam0.25_stepsweep_euler_test_steps1-2-4-8.csv

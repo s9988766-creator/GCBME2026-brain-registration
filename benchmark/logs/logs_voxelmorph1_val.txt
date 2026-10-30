@@ -1,0 +1,74 @@
+C:\ProgramData\miniconda3\envs\lfm\Lib\site-packages\torch\functional.py:539: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\TensorShape.cpp:3638.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Model : voxelmorph1
+Ckpt  : D:\YM\LFM\benchmark_atlas_to_subject\checkpoints\official\voxelmorph1.zip
+  checkpoint epoch=423 best_mse=0.7203185800153673 best_dsc=None
+  state_dict loaded strictly (no missing / unexpected keys)
+  parameters (excl. STN grid buffer) = 274,387
+Split : Val  n=58
+  [  1/58] subject_105                  grouped17=0.7478 rawP30=0.7521 Jneg%=1.3221 208.5ms
+  [  2/58] subject_108                  grouped17=0.6974 rawP30=0.6991 Jneg%=1.4375 50.8ms
+  [  3/58] subject_11                   grouped17=0.7396 rawP30=0.7428 Jneg%=1.4217 51.5ms
+  [  4/58] subject_114                  grouped17=0.6693 rawP30=0.6743 Jneg%=1.7500 54.9ms
+  [  5/58] subject_119                  grouped17=0.7044 rawP30=0.7006 Jneg%=1.4106 54.9ms
+  [  6/58] subject_126                  grouped17=0.7579 rawP30=0.7560 Jneg%=1.4935 54.8ms
+  [  7/58] subject_131                  grouped17=0.7504 rawP30=0.7490 Jneg%=1.1170 102.7ms
+  [  8/58] subject_136                  grouped17=0.7438 rawP30=0.7441 Jneg%=0.9599 63.4ms
+  [  9/58] subject_14                   grouped17=0.7567 rawP30=0.7570 Jneg%=1.2788 60.4ms
+  [ 10/58] subject_144                  grouped17=0.7013 rawP30=0.7068 Jneg%=1.7332 58.9ms
+  [ 11/58] subject_151                  grouped17=0.7541 rawP30=0.7513 Jneg%=1.4444 58.8ms
+  [ 12/58] subject_153                  grouped17=0.6923 rawP30=0.6938 Jneg%=1.5065 58.0ms
+  [ 13/58] subject_165                  grouped17=0.7306 rawP30=0.7309 Jneg%=1.3614 126.6ms
+  [ 14/58] subject_177                  grouped17=0.7160 rawP30=0.7104 Jneg%=1.4648 122.8ms
+  [ 15/58] subject_188                  grouped17=0.6826 rawP30=0.6791 Jneg%=1.8407 98.7ms
+  [ 16/58] subject_195                  grouped17=0.7434 rawP30=0.7425 Jneg%=1.2956 64.9ms
+  [ 17/58] subject_2                    grouped17=0.7242 rawP30=0.7154 Jneg%=1.7117 54.3ms
+  [ 18/58] subject_21                   grouped17=0.7158 rawP30=0.7206 Jneg%=1.1686 55.9ms
+  [ 19/58] subject_222                  grouped17=0.7097 rawP30=0.7055 Jneg%=1.3311 52.1ms
+  [ 20/58] subject_248                  grouped17=0.7285 rawP30=0.7264 Jneg%=1.5352 51.2ms
+  [ 21/58] subject_251                  grouped17=0.7350 rawP30=0.7380 Jneg%=1.7067 51.4ms
+  [ 22/58] subject_252                  grouped17=0.7667 rawP30=0.7618 Jneg%=1.3246 96.8ms
+  [ 23/58] subject_262                  grouped17=0.7610 rawP30=0.7609 Jneg%=1.2425 57.9ms
+  [ 24/58] subject_269                  grouped17=0.7024 rawP30=0.7099 Jneg%=1.7116 102.7ms
+  [ 25/58] subject_27                   grouped17=0.7401 rawP30=0.7386 Jneg%=1.7573 60.7ms
+  [ 26/58] subject_295                  grouped17=0.6716 rawP30=0.6760 Jneg%=1.5286 109.6ms
+  [ 27/58] subject_319                  grouped17=0.7301 rawP30=0.7295 Jneg%=1.4942 155.9ms
+  [ 28/58] subject_344                  grouped17=0.7564 rawP30=0.7526 Jneg%=1.2027 105.1ms
+  [ 29/58] subject_362                  grouped17=0.7465 rawP30=0.7474 Jneg%=1.3787 85.4ms
+  [ 30/58] subject_369                  grouped17=0.7435 rawP30=0.7366 Jneg%=1.3915 83.6ms
+  [ 31/58] subject_389                  grouped17=0.7205 rawP30=0.7160 Jneg%=2.0305 51.4ms
+  [ 32/58] subject_391                  grouped17=0.7368 rawP30=0.7329 Jneg%=1.2953 51.5ms
+  [ 33/58] subject_411                  grouped17=0.7509 rawP30=0.7495 Jneg%=1.3503 51.5ms
+  [ 34/58] subject_42                   grouped17=0.7072 rawP30=0.7000 Jneg%=1.8499 51.5ms
+  [ 35/58] subject_429                  grouped17=0.7197 rawP30=0.7123 Jneg%=2.2865 51.4ms
+  [ 36/58] subject_435                  grouped17=0.7555 rawP30=0.7521 Jneg%=1.5144 51.5ms
+  [ 37/58] subject_459                  grouped17=0.7379 rawP30=0.7356 Jneg%=1.3977 51.6ms
+  [ 38/58] subject_474                  grouped17=0.6991 rawP30=0.7049 Jneg%=1.4857 51.7ms
+  [ 39/58] subject_475                  grouped17=0.7566 rawP30=0.7514 Jneg%=2.0324 51.5ms
+  [ 40/58] subject_478                  grouped17=0.7540 rawP30=0.7553 Jneg%=1.3411 51.4ms
+  [ 41/58] subject_485                  grouped17=0.7144 rawP30=0.7083 Jneg%=2.1962 51.8ms
+  [ 42/58] subject_488                  grouped17=0.7200 rawP30=0.7367 Jneg%=1.1604 57.3ms
+  [ 43/58] subject_498                  grouped17=0.6500 rawP30=0.6503 Jneg%=1.8491 51.5ms
+  [ 44/58] subject_5                    grouped17=0.7274 rawP30=0.7268 Jneg%=1.3093 51.4ms
+  [ 45/58] subject_509                  grouped17=0.7117 rawP30=0.7137 Jneg%=1.5829 51.6ms
+  [ 46/58] subject_513                  grouped17=0.7350 rawP30=0.7363 Jneg%=1.1879 51.4ms
+  [ 47/58] subject_531                  grouped17=0.7428 rawP30=0.7418 Jneg%=1.3248 51.4ms
+  [ 48/58] subject_557                  grouped17=0.7032 rawP30=0.6959 Jneg%=1.9139 51.5ms
+  [ 49/58] subject_558                  grouped17=0.6883 rawP30=0.6825 Jneg%=1.9547 51.6ms
+  [ 50/58] subject_560                  grouped17=0.7193 rawP30=0.7215 Jneg%=1.3038 142.1ms
+  [ 51/58] subject_564                  grouped17=0.6696 rawP30=0.6600 Jneg%=1.5715 143.3ms
+  [ 52/58] subject_569                  grouped17=0.7519 rawP30=0.7468 Jneg%=1.6802 88.0ms
+  [ 53/58] subject_62                   grouped17=0.7607 rawP30=0.7582 Jneg%=1.5434 51.4ms
+  [ 54/58] subject_64                   grouped17=0.7500 rawP30=0.7521 Jneg%=1.2444 51.4ms
+  [ 55/58] subject_69                   grouped17=0.7400 rawP30=0.7400 Jneg%=1.5671 51.4ms
+  [ 56/58] subject_78                   grouped17=0.7412 rawP30=0.7389 Jneg%=1.7265 51.4ms
+  [ 57/58] subject_85                   grouped17=0.7457 rawP30=0.7391 Jneg%=1.7016 51.3ms
+  [ 58/58] subject_92                   grouped17=0.7048 rawP30=0.7021 Jneg%=2.1449 51.4ms
+voxelmorph1 [Val]: n=58
+  Dice (official grouped-17) = 0.726437 +/- 0.026784
+  Dice (raw P30, diagnostic) = 0.725341 +/- 0.026675
+  Jneg%                      = 1.532230 +/- 0.283435
+  log-Jacobian SD            = 1.748023 +/- 0.150575
+  mean inference             = 70.3 ms
+  parameters                 = 274,387
+  wrote D:\YM\LFM\benchmark_atlas_to_subject\results\voxelmorph1_val.csv

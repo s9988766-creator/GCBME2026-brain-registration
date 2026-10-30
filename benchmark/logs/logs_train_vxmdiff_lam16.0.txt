@@ -1,0 +1,110 @@
+C:\ProgramData\miniconda3\envs\lfm\Lib\site-packages\torch\functional.py:539: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\TensorShape.cpp:3638.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+arch=voxelmorph1_diff  trainable params=274,387
+direction=atlas->subject  lambda=16.0  beta=1.0  epochs=100
+soft-Dice labels: 38
+save_dir=D:\YM\LFM\benchmark_atlas_to_subject\runs\vxmdiff_lam16.0
+train n=403  val n=58
+[ep 001] lr=1.00e-04 loss=0.3964 NCC=0.0868 smooth=0.0010 softDiceLoss=0.4679 (158s)
+[ep 002] lr=9.91e-05 loss=0.3718 NCC=0.0896 smooth=0.0009 softDiceLoss=0.4470 (155s)
+[ep 003] lr=9.82e-05 loss=0.3687 NCC=0.0900 smooth=0.0009 softDiceLoss=0.4446 (155s)
+[ep 004] lr=9.73e-05 loss=0.3637 NCC=0.0914 smooth=0.0009 softDiceLoss=0.4405 (155s)
+[ep 005] lr=9.64e-05 loss=0.3627 NCC=0.0923 smooth=0.0009 softDiceLoss=0.4400 (155s)  valDice=0.6497  * saved best
+[ep 006] lr=9.55e-05 loss=0.3636 NCC=0.0922 smooth=0.0009 softDiceLoss=0.4412 (155s)
+[ep 007] lr=9.46e-05 loss=0.3597 NCC=0.0928 smooth=0.0009 softDiceLoss=0.4381 (155s)
+[ep 008] lr=9.37e-05 loss=0.3569 NCC=0.0934 smooth=0.0009 softDiceLoss=0.4358 (155s)
+[ep 009] lr=9.28e-05 loss=0.3563 NCC=0.0939 smooth=0.0009 softDiceLoss=0.4357 (155s)
+[ep 010] lr=9.19e-05 loss=0.3537 NCC=0.0949 smooth=0.0009 softDiceLoss=0.4341 (155s)  valDice=0.6472
+[ep 011] lr=9.10e-05 loss=0.3531 NCC=0.0958 smooth=0.0009 softDiceLoss=0.4340 (155s)
+[ep 012] lr=9.00e-05 loss=0.3475 NCC=0.0971 smooth=0.0010 softDiceLoss=0.4290 (155s)
+[ep 013] lr=8.91e-05 loss=0.3447 NCC=0.0979 smooth=0.0010 softDiceLoss=0.4268 (155s)
+[ep 014] lr=8.82e-05 loss=0.3388 NCC=0.0992 smooth=0.0009 softDiceLoss=0.4230 (155s)
+[ep 015] lr=8.73e-05 loss=0.3342 NCC=0.1005 smooth=0.0009 softDiceLoss=0.4196 (155s)  valDice=0.6704  * saved best
+[ep 016] lr=8.64e-05 loss=0.3287 NCC=0.1015 smooth=0.0010 softDiceLoss=0.4147 (155s)
+[ep 017] lr=8.55e-05 loss=0.3231 NCC=0.1025 smooth=0.0010 softDiceLoss=0.4099 (155s)
+[ep 018] lr=8.46e-05 loss=0.3187 NCC=0.1035 smooth=0.0010 softDiceLoss=0.4065 (155s)
+[ep 019] lr=8.36e-05 loss=0.3153 NCC=0.1041 smooth=0.0010 softDiceLoss=0.4034 (155s)
+[ep 020] lr=8.27e-05 loss=0.3114 NCC=0.1046 smooth=0.0010 softDiceLoss=0.3997 (155s)  valDice=0.6860  * saved best
+[ep 021] lr=8.18e-05 loss=0.3066 NCC=0.1057 smooth=0.0011 softDiceLoss=0.3952 (155s)
+[ep 022] lr=8.09e-05 loss=0.2997 NCC=0.1075 smooth=0.0011 softDiceLoss=0.3891 (155s)
+[ep 023] lr=8.00e-05 loss=0.2935 NCC=0.1092 smooth=0.0012 softDiceLoss=0.3833 (155s)
+[ep 024] lr=7.90e-05 loss=0.2866 NCC=0.1112 smooth=0.0013 softDiceLoss=0.3769 (155s)
+[ep 025] lr=7.81e-05 loss=0.2805 NCC=0.1125 smooth=0.0013 softDiceLoss=0.3716 (155s)  valDice=0.7212  * saved best
+[ep 026] lr=7.72e-05 loss=0.2754 NCC=0.1138 smooth=0.0014 softDiceLoss=0.3672 (155s)
+[ep 027] lr=7.63e-05 loss=0.2711 NCC=0.1148 smooth=0.0014 softDiceLoss=0.3634 (155s)
+[ep 028] lr=7.53e-05 loss=0.2677 NCC=0.1156 smooth=0.0014 softDiceLoss=0.3604 (155s)
+[ep 029] lr=7.44e-05 loss=0.2654 NCC=0.1163 smooth=0.0015 softDiceLoss=0.3583 (155s)
+[ep 030] lr=7.35e-05 loss=0.2628 NCC=0.1169 smooth=0.0015 softDiceLoss=0.3559 (155s)  valDice=0.7348  * saved best
+[ep 031] lr=7.25e-05 loss=0.2600 NCC=0.1176 smooth=0.0015 softDiceLoss=0.3534 (155s)
+[ep 032] lr=7.16e-05 loss=0.2572 NCC=0.1183 smooth=0.0015 softDiceLoss=0.3509 (155s)
+[ep 033] lr=7.07e-05 loss=0.2542 NCC=0.1189 smooth=0.0016 softDiceLoss=0.3481 (155s)
+[ep 034] lr=6.97e-05 loss=0.2501 NCC=0.1199 smooth=0.0016 softDiceLoss=0.3445 (155s)
+[ep 035] lr=6.88e-05 loss=0.2454 NCC=0.1210 smooth=0.0016 softDiceLoss=0.3405 (155s)  valDice=0.7475  * saved best
+[ep 036] lr=6.79e-05 loss=0.2393 NCC=0.1224 smooth=0.0017 softDiceLoss=0.3350 (155s)
+[ep 037] lr=6.69e-05 loss=0.2340 NCC=0.1237 smooth=0.0017 softDiceLoss=0.3305 (155s)
+[ep 038] lr=6.60e-05 loss=0.2307 NCC=0.1245 smooth=0.0017 softDiceLoss=0.3278 (155s)
+[ep 039] lr=6.50e-05 loss=0.2264 NCC=0.1257 smooth=0.0018 softDiceLoss=0.3240 (155s)
+[ep 040] lr=6.41e-05 loss=0.2255 NCC=0.1260 smooth=0.0018 softDiceLoss=0.3232 (155s)  valDice=0.7661  * saved best
+[ep 041] lr=6.31e-05 loss=0.2212 NCC=0.1270 smooth=0.0018 softDiceLoss=0.3196 (155s)
+[ep 042] lr=6.22e-05 loss=0.2197 NCC=0.1275 smooth=0.0018 softDiceLoss=0.3184 (155s)
+[ep 043] lr=6.12e-05 loss=0.2178 NCC=0.1280 smooth=0.0018 softDiceLoss=0.3167 (155s)
+[ep 044] lr=6.03e-05 loss=0.2166 NCC=0.1285 smooth=0.0018 softDiceLoss=0.3158 (155s)
+[ep 045] lr=5.93e-05 loss=0.2146 NCC=0.1289 smooth=0.0018 softDiceLoss=0.3139 (155s)  valDice=0.7666  * saved best
+[ep 046] lr=5.84e-05 loss=0.2141 NCC=0.1291 smooth=0.0019 softDiceLoss=0.3135 (155s)
+[ep 047] lr=5.74e-05 loss=0.2122 NCC=0.1296 smooth=0.0019 softDiceLoss=0.3120 (155s)
+[ep 048] lr=5.65e-05 loss=0.2115 NCC=0.1299 smooth=0.0019 softDiceLoss=0.3113 (155s)
+[ep 049] lr=5.55e-05 loss=0.2098 NCC=0.1303 smooth=0.0019 softDiceLoss=0.3099 (155s)
+[ep 050] lr=5.45e-05 loss=0.2088 NCC=0.1306 smooth=0.0019 softDiceLoss=0.3090 (155s)  valDice=0.7769  * saved best
+[ep 051] lr=5.36e-05 loss=0.2077 NCC=0.1309 smooth=0.0019 softDiceLoss=0.3080 (155s)
+[ep 052] lr=5.26e-05 loss=0.2063 NCC=0.1313 smooth=0.0019 softDiceLoss=0.3068 (155s)
+[ep 053] lr=5.17e-05 loss=0.2052 NCC=0.1316 smooth=0.0019 softDiceLoss=0.3059 (155s)
+[ep 054] lr=5.07e-05 loss=0.2046 NCC=0.1317 smooth=0.0019 softDiceLoss=0.3053 (155s)
+[ep 055] lr=4.97e-05 loss=0.2038 NCC=0.1320 smooth=0.0019 softDiceLoss=0.3049 (155s)  valDice=0.7778  * saved best
+[ep 056] lr=4.87e-05 loss=0.2029 NCC=0.1323 smooth=0.0020 softDiceLoss=0.3038 (155s)
+[ep 057] lr=4.78e-05 loss=0.2026 NCC=0.1325 smooth=0.0020 softDiceLoss=0.3036 (155s)
+[ep 058] lr=4.68e-05 loss=0.2020 NCC=0.1326 smooth=0.0020 softDiceLoss=0.3032 (155s)
+[ep 059] lr=4.58e-05 loss=0.2010 NCC=0.1329 smooth=0.0020 softDiceLoss=0.3023 (155s)
+[ep 060] lr=4.48e-05 loss=0.1997 NCC=0.1331 smooth=0.0020 softDiceLoss=0.3010 (155s)  valDice=0.7828  * saved best
+[ep 061] lr=4.38e-05 loss=0.1993 NCC=0.1333 smooth=0.0020 softDiceLoss=0.3008 (155s)
+[ep 062] lr=4.28e-05 loss=0.1988 NCC=0.1335 smooth=0.0020 softDiceLoss=0.3002 (155s)
+[ep 063] lr=4.19e-05 loss=0.1987 NCC=0.1335 smooth=0.0020 softDiceLoss=0.3002 (155s)
+[ep 064] lr=4.09e-05 loss=0.1971 NCC=0.1338 smooth=0.0020 softDiceLoss=0.2987 (155s)
+[ep 065] lr=3.99e-05 loss=0.1964 NCC=0.1340 smooth=0.0020 softDiceLoss=0.2981 (155s)  valDice=0.7844  * saved best
+[ep 066] lr=3.89e-05 loss=0.1964 NCC=0.1342 smooth=0.0020 softDiceLoss=0.2980 (155s)
+[ep 067] lr=3.79e-05 loss=0.1955 NCC=0.1343 smooth=0.0020 softDiceLoss=0.2973 (155s)
+[ep 068] lr=3.69e-05 loss=0.1950 NCC=0.1345 smooth=0.0020 softDiceLoss=0.2968 (155s)
+[ep 069] lr=3.59e-05 loss=0.1947 NCC=0.1345 smooth=0.0020 softDiceLoss=0.2966 (155s)
+[ep 070] lr=3.49e-05 loss=0.1938 NCC=0.1348 smooth=0.0021 softDiceLoss=0.2957 (155s)  valDice=0.7863  * saved best
+[ep 071] lr=3.38e-05 loss=0.1934 NCC=0.1349 smooth=0.0021 softDiceLoss=0.2954 (155s)
+[ep 072] lr=3.28e-05 loss=0.1930 NCC=0.1350 smooth=0.0021 softDiceLoss=0.2951 (155s)
+[ep 073] lr=3.18e-05 loss=0.1924 NCC=0.1351 smooth=0.0021 softDiceLoss=0.2944 (155s)
+[ep 074] lr=3.08e-05 loss=0.1921 NCC=0.1352 smooth=0.0021 softDiceLoss=0.2942 (155s)
+[ep 075] lr=2.98e-05 loss=0.1917 NCC=0.1353 smooth=0.0021 softDiceLoss=0.2939 (155s)  valDice=0.7865  * saved best
+[ep 076] lr=2.87e-05 loss=0.1912 NCC=0.1355 smooth=0.0021 softDiceLoss=0.2934 (155s)
+[ep 077] lr=2.77e-05 loss=0.1906 NCC=0.1356 smooth=0.0021 softDiceLoss=0.2928 (155s)
+[ep 078] lr=2.66e-05 loss=0.1903 NCC=0.1357 smooth=0.0021 softDiceLoss=0.2926 (155s)
+[ep 079] lr=2.56e-05 loss=0.1899 NCC=0.1358 smooth=0.0021 softDiceLoss=0.2922 (155s)
+[ep 080] lr=2.46e-05 loss=0.1895 NCC=0.1358 smooth=0.0021 softDiceLoss=0.2918 (155s)  valDice=0.7878  * saved best
+[ep 081] lr=2.35e-05 loss=0.1892 NCC=0.1360 smooth=0.0021 softDiceLoss=0.2916 (155s)
+[ep 082] lr=2.24e-05 loss=0.1886 NCC=0.1361 smooth=0.0021 softDiceLoss=0.2910 (155s)
+[ep 083] lr=2.14e-05 loss=0.1886 NCC=0.1361 smooth=0.0021 softDiceLoss=0.2909 (155s)
+[ep 084] lr=2.03e-05 loss=0.1880 NCC=0.1362 smooth=0.0021 softDiceLoss=0.2904 (155s)
+[ep 085] lr=1.92e-05 loss=0.1877 NCC=0.1363 smooth=0.0021 softDiceLoss=0.2901 (155s)  valDice=0.7884  * saved best
+[ep 086] lr=1.81e-05 loss=0.1876 NCC=0.1363 smooth=0.0021 softDiceLoss=0.2900 (155s)
+[ep 087] lr=1.70e-05 loss=0.1872 NCC=0.1364 smooth=0.0021 softDiceLoss=0.2897 (155s)
+[ep 088] lr=1.59e-05 loss=0.1868 NCC=0.1365 smooth=0.0021 softDiceLoss=0.2893 (155s)
+[ep 089] lr=1.48e-05 loss=0.1865 NCC=0.1365 smooth=0.0021 softDiceLoss=0.2890 (155s)
+[ep 090] lr=1.37e-05 loss=0.1864 NCC=0.1366 smooth=0.0021 softDiceLoss=0.2889 (155s)  valDice=0.7892  * saved best
+[ep 091] lr=1.26e-05 loss=0.1860 NCC=0.1366 smooth=0.0021 softDiceLoss=0.2885 (155s)
+[ep 092] lr=1.15e-05 loss=0.1857 NCC=0.1367 smooth=0.0021 softDiceLoss=0.2882 (155s)
+[ep 093] lr=1.03e-05 loss=0.1855 NCC=0.1367 smooth=0.0021 softDiceLoss=0.2881 (155s)
+[ep 094] lr=9.13e-06 loss=0.1853 NCC=0.1368 smooth=0.0021 softDiceLoss=0.2878 (155s)
+[ep 095] lr=7.95e-06 loss=0.1850 NCC=0.1368 smooth=0.0021 softDiceLoss=0.2877 (155s)  valDice=0.7899  * saved best
+[ep 096] lr=6.75e-06 loss=0.1848 NCC=0.1369 smooth=0.0021 softDiceLoss=0.2873 (155s)
+[ep 097] lr=5.52e-06 loss=0.1846 NCC=0.1369 smooth=0.0021 softDiceLoss=0.2872 (155s)
+[ep 098] lr=4.26e-06 loss=0.1844 NCC=0.1369 smooth=0.0021 softDiceLoss=0.2870 (155s)
+[ep 099] lr=2.96e-06 loss=0.1842 NCC=0.1369 smooth=0.0021 softDiceLoss=0.2868 (155s)
+[ep 100] lr=1.58e-06 loss=0.1840 NCC=0.1370 smooth=0.0021 softDiceLoss=0.2866 (155s)  valDice=0.7901  * saved best
+
+best Val grouped-17 Dice = 0.790113
+checkpoint: D:\YM\LFM\benchmark_atlas_to_subject\runs\vxmdiff_lam16.0\best.pth

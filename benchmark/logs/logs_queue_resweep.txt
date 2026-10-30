@@ -1,0 +1,6 @@
+[Fri 08/21/2026 14:28:35.12] QUEUE START 
+[Fri 08/21/2026 14:28:35.12] flowsvf_unet exit=0 
+[Fri 08/21/2026 14:28:35.12] flowdisp_unet exit=0 
+[Fri 08/21/2026 14:28:35.12] flowsvf_unet_std exit=0 
+[Fri 08/21/2026 14:28:35.12] flowdisp_unet_std exit=0 
+[Fri 08/21/2026 15:08:25.73] QUEUE DONE 

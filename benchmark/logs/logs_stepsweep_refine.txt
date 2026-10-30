@@ -1,0 +1,14 @@
+run=flowsvf_a2s_softdice  selected at epoch 75 (Val Dice 0.794602 @ 2 steps)
+split=Val n=58  mode=refine
+
+ steps     Dice (grouped-17)        Jneg %   logJ SD       ms
+     1         0.7989 ± 0.0194      0.000002     0.386     46.9
+     2         0.7946 ± 0.0185      0.000004     0.385     60.1
+     4         0.6515 ± 0.1056      0.000007     0.406     71.6
+     8         0.2743 ± 0.1522      0.270844     1.106     79.0
+    16         0.0130 ± 0.0239     27.300651     6.890    115.6
+
+step 1 -> best (1 steps): 0.7989 -> 0.7989  (+0.0000)
+max folding across all step counts: 27.300651%
+GATE: step 2 must clearly beat step 1 and Dice must not degrade with steps.
+wrote D:\YM\LFM\benchmark_atlas_to_subject\results\flowsvf_a2s_softdice_stepsweep_refine_val.csv
