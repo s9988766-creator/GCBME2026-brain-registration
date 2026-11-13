@@ -118,7 +118,7 @@ docs/                      paper PDF and README figure
 
 ## Limitations
 
-One dataset, one atlas and one training run per configuration. Seed spread on this data is about 0.0022 Dice, so the 0.0015 integration cost and the 0.0012 C-vs-D gap should be read as not detectable. Comparisons are at matched λ, not matched folding; the follow-up study [Where Should Iterative Registration Refine?](https://github.com/s9988766-creator/isbi2027-iterative-registration) compares models at matched folding. Weakly supervised models are trained on the structures they are scored on.
+One dataset, one atlas and one training run per configuration. Seed spread on this data is about 0.0022 Dice, so the 0.0015 integration cost and the 0.0012 C-vs-D gap should be read as not detectable. Comparisons are at matched λ, not matched folding; the follow-up study [Where Should Iterative Registration Refine?](https://github.com/s9988766-creator/IEEE-ISBI2027-iterative-registration) compares models at matched folding. Weakly supervised models are trained on the structures they are scored on.
 
 ## Citation
 
