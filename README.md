@@ -11,7 +11,7 @@
 *The 7th Global Conference on Biomedical Engineering & Annual Meeting of the Taiwanese Society of Biomedical Engineering (GCBME 2026)*
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b.svg)](docs/GCBME2026_Lai_Chiang_Yang.pdf)
-[![Venue](https://img.shields.io/badge/GCBME-2026-1f6feb.svg)](#citation)
+[![Venue](https://img.shields.io/badge/GCBME-2026-1f6feb.svg)](https://www.gcbme2026.com)
 [![Data](https://img.shields.io/badge/Data-IXI%20(TransMorph%20release)-6f42c1.svg)](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
