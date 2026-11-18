@@ -91,7 +91,7 @@ python train_softdice.py --arch voxelmorph1_diff --beta 1.0 --lam 1.0 --epochs 1
 python eval_trained.py   ...                           # see run_*.bat for the exact queues
 ```
 
-Model letter → `--arch`: A `voxelmorph1`, B `voxelmorph1_diff`, E `voxelmorph1_tv_comp`, F `voxelmorph1_tv_sum`. C and D use the frozen VAE in `outputs/ixi_vae/`. Trained checkpoints (~30 GB) are not included. IXI is CC BY-SA 3.0, so the data are not committed here.
+Model letter → `--arch`: A `voxelmorph1`, B `voxelmorph1_diff`, E `voxelmorph1_tv_comp`, F `voxelmorph1_tv_sum`. C and D use the frozen VAE in `outputs/ixi_vae/`. That VAE was pretrained (reconstruction + KL) only on the 403 IXI training subjects of the TransMorph split and validated on the 58 validation subjects; no test subject was used. Trained checkpoints (~30 GB) are not included. IXI is CC BY-SA 3.0, so the data are not committed here.
 
 <details>
 <summary><b>Repository layout</b></summary>
@@ -118,7 +118,7 @@ docs/                      paper PDF and README figure
 
 ## Limitations
 
-One dataset, one atlas and one training run per configuration. Seed spread on this data is about 0.0022 Dice, so the 0.0015 integration cost and the 0.0012 C-vs-D gap should be read as not detectable. Comparisons are at matched λ, not matched folding; the follow-up study [Where Should Iterative Registration Refine?](https://github.com/s9988766-creator/IEEE-ISBI2027-iterative-registration) compares models at matched folding. Weakly supervised models are trained on the structures they are scored on.
+One dataset, one atlas and one training run per configuration. Seed spread on this data is about 0.0022 Dice, so the 0.0015 integration cost and the 0.0012 C-vs-D gap should be read as not detectable. Comparisons are at matched λ, not matched folding. Weakly supervised models are trained on the structures they are scored on.
 
 ## Citation
 
